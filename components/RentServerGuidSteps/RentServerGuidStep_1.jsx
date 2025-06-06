@@ -14,13 +14,13 @@ const content = {
   },
 };
 
-const RentServerGuidStep_1 = ({ language }) => {
+const RentServerGuidStep_1 = ({ language, imageClassName }) => {
 	return (
 		<div className="">
 	      <GuidStepTemplate
 	        title={content[language].title}
-	        	        description={content[language].description}
-	        image={InterServer} className="w-full max-w-md mx-auto rounded-lg shadow-lg object-cover hover:scale-105 transition-transform duration-300"
+	        description={content[language].description}
+	        image={InterServer}
 	        imageCaption={content[language].imageCaption}
      	 />
 		</div>
