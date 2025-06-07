@@ -16,7 +16,7 @@ const content = {
   },
 };
 
-const RentServerGuidStep_3 = ({ language }) => {
+const RentServerGuidStep_3 = ({ language, imageClassName }) => {
 	return (
 		<div className="">
 	      <GuidStepTemplate
@@ -24,11 +24,12 @@ const RentServerGuidStep_3 = ({ language }) => {
 	        description={content[language].description}
 	        image={InterServer03} 
 	        imageCaption={content[language].imageCaption}
+          imageClassName="mt-4 w-[700px] h-auto rounded-md shadow-sm"
      	 />
      	<div className="image-container">
         <p className="ml-4">Unter Select OS wählen wir Unbuntu LTS aus. Den Rest können wir so belassen, wie durch die Vorauswahl angewählt. Bestättige deine Auswahl </p>
-        <img src={InterServer04} alt={`Test1`} className="mt-4 w-[900px] h-auto rounded-md shadow-sm"  />
-        <img src={InterServer05} alt={`Test2`} className="mt-4 w-[900px] h-auto rounded-md shadow-sm"  />
+        <img src={InterServer04} alt={`Test1`} className="mt-4 w-[700px] h-auto rounded-md shadow-sm"  />
+        <img src={InterServer05} alt={`Test2`} className="mt-4 w-[700px] h-auto rounded-md shadow-sm"  />
       </div>
 
 		</div>

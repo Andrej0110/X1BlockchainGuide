@@ -20,13 +20,14 @@ function App() {
         <Logo />
         X1 Validator Guide
       </h1>
-      <h2>Möchtest du einen Validator für die X1 Blockchain einrichten? In dieser Anleitung zeigen wir dir Schritt für Schritt, wie du erfolgreich Teil des X1-Netzwerks wirst.</h2>
+      <h2>Möchtest du einen Validator für die X1 Blockchain einrichten? In dieser Anleitung zeigen ich dir Schritt für Schritt, wie du erfolgreich Teil des X1-Netzwerks wirst.</h2>
       <LanguageButtons language={language} setLanguage={setLanguage} />
 
       <MenuButtons activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === 'main' && <MainGuidSteps language={language} />}
-      {activeTab === 'wsl' && <WslGuidSteps language={language} />}
-      {activeTab === 'rent' && <RentServerGuidSteps language={language} />}
+      {activeTab === 'main' && <MainGuidSteps language={language} activeTab={activeTab} setActiveTab={setActiveTab} />}
+      {activeTab === 'wsl' && (<WslGuidSteps language={language} activeTab={activeTab} setActiveTab={setActiveTab} />)}
+      {activeTab === 'rent' && (<RentServerGuidSteps language={language} activeTab={activeTab} setActiveTab={setActiveTab} />)}
+
     </div>
   );
 }

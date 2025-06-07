@@ -4,24 +4,26 @@ const content = {
   en: {
     title: "Step 2: WSL Installation (only for Windows Users)",
     description: "Adjust the configuration files.",
-    imageCaption: "Test",
+    buttonText: "Ubuntu (PuTTY)",
   },
   de: {
-    title: "Schritt 2: WSL Installation (nur für Windows)",
-    description: "Passe die Konfigurationsdateien an.",
-    imageCaption: "Test",
+    title: "Schritt 2: Zugriff auf Server (Windows)",
+    description: "Wenn du Windows als Betriebssystem nutzt, dann benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Ansonsten fahre fort mit:",
+    buttonText: "Ubuntu (PuTTY)",
   },
 };
 
-const MainGuidStep_2 = ({ id, language }) => {
+const MainGuidStep_2 = ({ id, language, activeTab, setActiveTab }) => {
   return (
     <div id={id} className="">
       <GuidStepTemplate
         id={id}
         title={content[language].title}
         description={content[language].description}
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1EBeJ9GT-VLXSAYtZSYRpdSV8PRjIHICSA&s"
-        imageCaption={content[language].imageCaption}
+        buttonText={content[language].buttonText} 
+          activeTab={activeTab}
+          setActiveTab={setActiveTab} 
+          tabValue="wsl"
       />
     </div>
   );

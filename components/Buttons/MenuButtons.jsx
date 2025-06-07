@@ -21,7 +21,7 @@ const MenuButtons = ({activeTab, setActiveTab}) => {
 		                : 'border-transparent text-gray-600 hover:text-blue-600'
 		            }`}
           		>
-            	WSL Installation (Windows)
+            	Ubuntu (PuTTY)
           		</button>
 
           		<button
