@@ -84,6 +84,8 @@ const MainGuidStep_4 = ({ id, language }) => {
       <img src={Validator13} alt={`Test1`} className="mt-4 w-[900px] h-auto rounded-md shadow-sm"  />
       <p className="ml-4">Wenn dein Status: Delinquent ist, dann benötigt deine ID Wallet mindestens 2 XNT. Ob du die XNT vom Faucet oder einem User erhalten hast, kannst du unter "3. Check Balance" nachschauen.</p>
       <p className="ml-4">1. Sobald dir die XNT zur Verfügung stehen, wähle "Health Check and Start Validator" aus. Nachdem Health Check sollte dein Validator den Status Active haben.</p>
+      <p className="ml-4">Solltest du das Terminal schließen, dann kannst du auf die X1 Console, nach dem Loggin auf deinen Server, mit folgendem Befehl zugreifen:</p>
+      <p className="ml-4">cd x1console && ./x1console.sh</p>
       <img src={Validator14} alt={`Test1`} className="mt-4 w-[900px] h-auto rounded-md shadow-sm"  />
       <h2 className="ml-4">Falls dir dieser Guide gefallen oder geholfen hat, freue ich mich über eine kleine Unterstützung durch eine Spende, um weitere Inhalte wie diesen zu erstellen.</h2>
       <DonateButton />
