@@ -2,8 +2,8 @@ import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
 
 const content = {
   en: {
-    title: "Step 2: WSL Installation (only for Windows Users)",
-    description: "Adjust the configuration files.",
+    title: "Step 2: Access to server (Windows)",
+    description: "If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with:",
     buttonText: "Ubuntu (PuTTY)",
   },
   de: {

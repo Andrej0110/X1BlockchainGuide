@@ -3,7 +3,7 @@ import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
 const content = {
   en: {
     title: "Step 1: Rent a Server",
-    description: "Install the required dependencies with npm.",
+    description: "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements, you can skip this step. Otherwise, continue with :",
     buttonText: "Rent Server",
   },
   de: {
