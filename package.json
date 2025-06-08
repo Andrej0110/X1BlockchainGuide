@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Andrej0110/X1BlockchainGuide",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-  },
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  }, //scripts: predeploy und deploy für GitHub
+  
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
     "react": "^19.1.0",
