@@ -1,4 +1,13 @@
+import { useTranslation } from 'react-i18next';
+
 const LanguageButtons = ({language, setLanguage}) => {
+	const { i18n } = useTranslation();
+
+  	const handleLanguageChange = (lang) => {
+    i18n.changeLanguage(lang); // Ändert die Sprache in i18next
+    setLanguage(lang); // Synchronisiert die language-State
+  };
+
 	return (
 		<div className="mb-6">
         	<div className="mb-4">

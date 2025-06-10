@@ -9,7 +9,7 @@ const content = {
   },
   de: {
     title: "Schritt 2: Auswahl Server",
-    description: "Die Mindestanforderung sind 12 CPU's und da wir für 153$ auch einen mit 16 CPU's bekommen können, wählen wir den AMD RYZEN 7950X3D aus und klicken auf CONFIGURE NOW.",
+    description: "Die Mindestanforderung sind 12 CPUs, und da wir für 153 $ auch einen mit 16 CPUs bekommen können, wählen wir den AMD Ryzen 7950X3D aus und klicken auf CONFIGURE NOW",
     imageCaption: "Test",
   },
 };

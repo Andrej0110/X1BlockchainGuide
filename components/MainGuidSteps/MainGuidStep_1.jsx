@@ -1,35 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
-
-const content = {
-  en: {
-    title: "Step 1: Rent a Server",
-    description: "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements, you can skip this step. Otherwise, continue with :",
-    buttonText: "Rent Server",
-  },
-  de: {
-    title: "Schritt 1: Server mieten",
-    description: "Um deinen X1 Validator einzurichten benötigst du einen Server, den man bei dieversen Anbietern monatlich mieten kann. Wenn du bereits einen Server hast, der den Mindestanforderungen entspricht, dann kannst du diesen Schritt überspringen. Ansonstne fahre fohrt mit:",
-    buttonText: "Server mieten",
-  },
-};
+import ValidatorHardware01 from './Pictures/Step_1/ValidatorHardware01jpg.jpg';
 
 const MainGuidStep_1 = ({ id, language, activeTab, setActiveTab }) => {
+  const { t } = useTranslation('mainGuidSteps');
   return (
     <div id={id} className="">
       <GuidStepTemplate
         id={id}
-        title={content[language].title}
-        description={content[language].description}
-        buttonText={content[language].buttonText} 
+        title={t('step1.title')}
+        description={t('step1.description')}
+        buttonText={t('step1.buttonText')}
           activeTab={activeTab}
           setActiveTab={setActiveTab} 
           tabValue="rent" 
+        image={ValidatorHardware01}
+        imageClassName="mt-4 w-[400px] h-auto rounded-md shadow-sm"
       />
     </div>
   );
 };
 
 // Statische Methode, um den Titel abzurufen
-MainGuidStep_1.getTitle = (language) => content[language].title || content.en.title;
+MainGuidStep_1.getTitle = (language) => {
+  const { t } = useTranslation('mainGuidSteps'); // Dynamischer Zugriff auf Übersetzungen
+};
 
 export default MainGuidStep_1;

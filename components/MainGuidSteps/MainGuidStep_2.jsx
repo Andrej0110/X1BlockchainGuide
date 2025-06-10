@@ -8,7 +8,7 @@ const content = {
   },
   de: {
     title: "Schritt 2: Zugriff auf Server (Windows)",
-    description: "Wenn du Windows als Betriebssystem nutzt, dann benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Ansonsten fahre fort mit:",
+    description: "Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
     buttonText: "Ubuntu (PuTTY)",
   },
 };

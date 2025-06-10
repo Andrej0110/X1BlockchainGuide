@@ -3,8 +3,10 @@ import MainGuidStep_2 from './MainGuidStep_2.jsx';
 import MainGuidStep_3 from './MainGuidStep_3.jsx';
 import MainGuidStep_4 from './MainGuidStep_4.jsx';
 import TableOfContentMainGuid from './TableOfContentMainGuid.jsx';
+import { useTranslation } from 'react-i18next';
 
 const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
+  const { t } = useTranslation('mainGuidSteps'); // Namespace 'mainGuidSteps' verwenden
   const steps = [
     { component: MainGuidStep_1, id: 'step1' },
     { component: MainGuidStep_2, id: 'step2' },
@@ -12,21 +14,23 @@ const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
     { component: MainGuidStep_4, id: 'step4' },
   ];
 
-  // Dynamisches Abrufen der Titel aus den Komponenten
-  const stepTitles = steps.map(step => step.component.getTitle(language));
+  // Optional: Schritt-Titel direkt aus Übersetzungen holen (falls getTitle nicht mehr genutzt wird)
+  const stepTitles = steps.map(step => t(`${step.id}.title`));
 
   return (
     <div className="">
       <TableOfContentMainGuid language={language} stepTitles={stepTitles} />
       {steps.map((step) => {
         const StepComponent = step.component;
-        return <StepComponent 
-          key={step.id} 
-          id={step.id} 
-          language={language}  
-          activeTab={activeTab} 
-          setActiveTab={setActiveTab} 
+        return (
+          <StepComponent
+            key={step.id}
+            id={step.id}
+            language={language}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
           />
+        );
       })}
     </div>
   );

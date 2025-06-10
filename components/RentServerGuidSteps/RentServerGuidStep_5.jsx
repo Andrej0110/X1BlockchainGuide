@@ -8,7 +8,7 @@ const content = {
   },
   de: {
     title: "Schritt 5: Account anlegen und anmelden",
-    description: "Lege einen Account an und logge dich ein.",
+    description: "Lege einen Account an und melde dich an.",
     imageCaption: "Test",
   },
 };

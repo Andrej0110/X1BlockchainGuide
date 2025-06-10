@@ -5,5 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   base: '/X1BlockchainGuide/', // Angepasst an den Repository-Namen
-  plugins: [react(), tailwindcss()]
+  plugins: [react(), tailwindcss()],
+  assetsInclude: ['**/*.json']
 })
+

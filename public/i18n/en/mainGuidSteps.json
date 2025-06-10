@@ -1,0 +1,20 @@
+{
+  "tableOfContent": "Table of Contents",
+  "step1": {
+    "title": "Step 1: Rent a Server",
+    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements, you can skip this step. Otherwise, continue with:",
+    "buttonText": "Rent Server"
+  },
+  "step2": {
+    "title": "Step 2: Access to server (Windows)",
+    "description": "Configure your server settings..."
+  },
+  "step3": {
+    "title": "Step 3: Connect to Server and add User",
+    "description": "Install the required software..."
+  },
+  "step4": {
+    "title": "Step 4: Start Validation",
+    "description": "Start the validation process..."
+  }
+}

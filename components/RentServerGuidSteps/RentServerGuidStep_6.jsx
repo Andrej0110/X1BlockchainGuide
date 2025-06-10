@@ -9,7 +9,7 @@ const content = {
   },
   de: {
     title: "Schritt 6: Root Passwort vergeben und bezahlen",
-    description: "Server Hostname kannst du beliebig vergeben. Diesen Namen siehst nur du in dem Terminal, wenn wir den Validator auf den Server installieren. Das Root Password ist wichtig, um sich auf den Server einloggen zu können. Vergib ein neues Passwort und merke es dir! Schließe den Kauf ab.",
+    description: "Den Server-Hostname kannst du beliebig vergeben. Diesen Namen siehst nur du im Terminal, wenn wir den Validator auf den Server installieren. Das Root-Passwort ist wichtig, um sich auf den Server einloggen zu können. Vergeben ein neues Passwort und merke es dir! Schließe den Kauf ab.",
     imageCaption: "Test",
   },
 };

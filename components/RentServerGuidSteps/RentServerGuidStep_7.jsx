@@ -12,12 +12,11 @@ const content = {
   },
   de: {
     title: "Schritt 7: IP Adresse",
-    description:
-      "Unter dem Menüpunkt Servers siehst du deinen ausgewählten Server. Es dauert ca. 5-10 Minuten bis bei dir unter IP eine Adresse angezeigt wird. Diese IP Adresse werden wir brauchen für das Einloggen in den Server. Lass die Seite geöffnet oder notiere dir die IP Adresse, sobald dir eine angezeigt wird.",
-    description_2: "Um die Zeit sinnvoll zu nutzen, fahren wir fort mit der Einrichtung von Ubuntu.",
+    description: "Unter dem Menüpunkt Servers siehst du deinen ausgewählten Server. Es dauert etwa 5–10 Minuten (in Ausnahmefällen bis zu 48h), bis bei dir unter IP eine Adresse angezeigt wird. Diese IP-Adresse werden wir für das Einloggen in den Server benötigen. Lass die Seite geöffnet oder notiere dir die IP-Adresse, sobald sie angezeigt wird.",
+    description_2: "Um die Zeit sinnvoll zu nutzen, fahren wir mit der Einrichtung von Ubuntu fort",
     imageCaption: "Test",
     buttonText: "Ubuntu mit PuTTY (Windows)", // Neuer Text für den Button
-    description_3: "Als macOs nutzer kannst du forthfahren mit dem Main Guide.",
+    description_3: "Als macOS-Nutzer kannst du mit dem Main Guide fortfahren.",
   },
 };
 

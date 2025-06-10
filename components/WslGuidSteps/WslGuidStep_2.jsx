@@ -10,13 +10,13 @@ const content = {
   },
   de: {
   	title: "Schritt 2: Download und Installation",
-    description: "Lade die Datei herunter und installiere das Programm. Sobald du es offen hast, sollte es so aussehen wie in dem Bild unten dargestellt. Und das wars schon, du bist fertig. Du hast nun ein Prorgamm mit dem du auf deinen neuen Server zugreifen kannst. Fahre fort mit Schritt 3 unter Main Guide.",
+    description: "Sobald du es geöffnet hast, sollte es so aussehen wie im Bild unten dargestellt. Und das war’s schon, du bist fertig. Du hast nun ein Programm, mit dem du auf deinen neuen Server zugreifen kannst. Fahre fort mit Schritt 3 unter Main Guide.",
     buttonText: "Main Guide",
     imageCaption: "Test",
   },
 };
 
-const WslGuidStep_2 = ({ language, activeTab, setActiveTab  }) => {
+const WslGuidStep_2 = ({ language, activeTab, setActiveTab, imageClassName  }) => {
 	return (
 		<div className="">
 	      <GuidStepTemplate
