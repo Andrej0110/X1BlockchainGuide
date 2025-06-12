@@ -8,7 +8,7 @@ i18n
   .init({
     lng: "en",
     fallbackLng: "en",
-    ns: ["app", "mainGuidSteps"],
+    ns: ["app", "mainGuidSteps", "button", "wslGuidSteps"],
     defaultNS: "app",
     backend: {
       loadPath: "/X1BlockchainGuide/i18n/{{lng}}/{{ns}}.json",

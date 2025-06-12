@@ -1,38 +1,41 @@
-import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
-import Putty from './Pictures/Putty01.jpg';
+import { useTranslation, Trans } from "react-i18next";
+import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
+import Putty01 from "./Pictures/Putty01.jpg";
 
-const content = {
-  en: {
-    //headline: "bla",
-    //headlineParagraph_01: "bla",
-    title: "Step 1: Enable WSL",
-    description: "Open PowerShell as Administrator and run the command 'wsl --install'.",
-    imageCaption: "Test",
-  },
-  de: {
-  	//headline: "Einrichten eines Fernzugriffes",
-  	//headlineParagraph_01: "PuTTY ermöglicht es, sich über SSH (Secure Shell) sicher mit entfernten Linux-Servern oder anderen Geräten zu verbinden, um sie zu verwalten oder Befehle auszuführen. Wir werden das Programm nutzen, um auf dem Server den X1 Blockchain Validator einzurichten.",
-    title: "Schritt 1: Download und Installation",
-    description: "Lade die Datei herunter und installiere das Programm.",
-    imageCaption: "Test",
-  },
+const WslGuidStep_1 = ({ id }) => {
+  const { t } = useTranslation("wslGuidSteps");
+
+  return (
+    <div className="">
+      <h2 className="text-2xl font-semibold ml-2 p-2">{t("introduction")}</h2>
+      <p className="ml-4">{t("p01")}</p>
+
+      <p className="ml-4">
+        <Trans
+          i18nKey="wslGuidSteps:p02"
+          components={{
+            telegramLink: (
+              <a
+                href="https://www.putty.org/"
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        />
+      </p>
+
+      <div id={id} className="">
+        <GuidStepTemplate
+          id={id}
+          title={t("step1.title")}
+          description={t("step1.description")}
+          image={Putty01}
+        />
+      </div>
+    </div>
+  );
 };
 
-const WslGuidStep_1 = ({ language }) => {
-	return (
-		<div className="">
-	      <GuidStepTemplate
-	      	//headline={content[language].headline}
-	      	//headlineParagraph_01={content[language].headlineParagraph_01}
-	        title={content[language].title}
-	        description={content[language].description}
-	        image={Putty}
-	        imageCaption={content[language].imageCaption}
-     	 />
-		</div>
-	);
-}
-
 export default WslGuidStep_1;
-
-

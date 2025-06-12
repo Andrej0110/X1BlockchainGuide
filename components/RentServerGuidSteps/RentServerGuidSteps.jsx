@@ -1,39 +1,45 @@
-import RentServerGuidStep_1 from './RentServerGuidStep_1.jsx';
-import RentServerGuidStep_2 from './RentServerGuidStep_2.jsx';
-import RentServerGuidStep_3 from './RentServerGuidStep_3.jsx';
-import RentServerGuidStep_4 from './RentServerGuidStep_4.jsx';
-import RentServerGuidStep_5 from './RentServerGuidStep_5.jsx';
-import RentServerGuidStep_6 from './RentServerGuidStep_6.jsx';
-import RentServerGuidStep_7 from './RentServerGuidStep_7.jsx';
-
+import { useTranslation } from "react-i18next";
+import RentServerGuidStep_1 from "./RentServerGuidStep_1.jsx";
+import RentServerGuidStep_2 from "./RentServerGuidStep_2.jsx";
+import RentServerGuidStep_3 from "./RentServerGuidStep_3.jsx";
+import RentServerGuidStep_4 from "./RentServerGuidStep_4.jsx";
+import RentServerGuidStep_5 from "./RentServerGuidStep_5.jsx";
+import RentServerGuidStep_6 from "./RentServerGuidStep_6.jsx";
+import RentServerGuidStep_7 from "./RentServerGuidStep_7.jsx";
+import TableOfContentRentGuid from "./TableOfContentRentGuid.jsx";
 
 const RentServerGuidSteps = ({ language, activeTab, setActiveTab }) => {
+  const { t } = useTranslation("rentServerGuidSteps");
 
-	return (
-		<div className="">
-			<h1 className="text-2xl font-semibold ml-2 p-2">"Einrichten eines Servers"</h1>
-			<p className="ml-4">"In dieser Anleitung zeige ich dir, welchen Server du wählen solltest, um die erforderliche Leistung für deinen Validator auszuwählen."</p>
+  const steps = [
+    { component: RentServerGuidStep_1, id: "step1" },
+    { component: RentServerGuidStep_2, id: "step2" },
+    { component: RentServerGuidStep_3, id: "step3" },
+    { component: RentServerGuidStep_4, id: "step4" },
+    { component: RentServerGuidStep_5, id: "step5" },
+    { component: RentServerGuidStep_6, id: "step6" },
+    { component: RentServerGuidStep_7, id: "step7" },
+  ];
 
-			<p className="ml-4">In der Dokumentation von der{' '}
-				<a href="https://docs.x1.xyz/validating/performance/hardware-requirements" 
-					className="text-blue-600 hover:text-blue-800  hover:underline transition-colors duration-200" target="_blank">
-				X1 Blockchain</a> wird der Aniebter InterServer empfohlen. Gehe hierzu auf die Webseite{' '}
-				<a href="https://www.interserver.net/r/1013595" 
-					className="text-blue-600 hover:text-blue-800  hover:underline transition-colors duration-200" target="_blank">
-					InterServer</a> und folge anschließend der Schritt für Schritt Anweisung.</p>
-	      <RentServerGuidStep_1 language={language}/>
-	      <RentServerGuidStep_2 language={language}/>
-	      <RentServerGuidStep_3 language={language}/>
-	      <RentServerGuidStep_4 language={language}/>
-	      <RentServerGuidStep_5 language={language}/>
-	      <RentServerGuidStep_6 language={language}/>
-	      <RentServerGuidStep_7 
-	      	language={language}
-	      	activeTab={activeTab}
-       		setActiveTab={setActiveTab}
-	      />
-		</div>
-	);
-}
+  const stepTitles = steps.map((step) => t(`${step.id}.title`));
+
+  return (
+    <div className="">
+      <TableOfContentRentGuid language={language} stepTitles={stepTitles} />
+      {steps.map((step) => {
+        const StepComponent = step.component;
+        return (
+          <StepComponent
+            key={step.id}
+            id={step.id}
+            language={language}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+        );
+      })}
+    </div>
+  );
+};
 
 export default RentServerGuidSteps;

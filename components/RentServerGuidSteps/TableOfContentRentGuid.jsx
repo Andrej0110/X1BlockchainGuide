@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-const TableOfContentMainGuid = ({ stepTitles }) => {
-  const { t } = useTranslation("mainGuidSteps");
+const TableOfContentRentGuid = ({ stepTitles }) => {
+  const { t } = useTranslation("rentServerGuidSteps");
 
   return (
     <nav className="mb-6 p-4 bg-gray-100 rounded-lg">
@@ -23,4 +23,4 @@ const TableOfContentMainGuid = ({ stepTitles }) => {
   );
 };
 
-export default TableOfContentMainGuid;
+export default TableOfContentRentGuid;

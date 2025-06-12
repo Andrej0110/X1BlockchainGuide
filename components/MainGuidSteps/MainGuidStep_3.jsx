@@ -6,7 +6,7 @@ import PuttyAddUser03 from "./Pictures/Add_User/PuttyAddUser_03.jpg";
 import PuttyAddUser05 from "./Pictures/Add_User/PuttyAddUser_05.jpg";
 import PuttyAddUser06 from "./Pictures/Add_User/PuttyAddUser_06.jpg";
 
-const MainGuidStep_3 = ({ id, language }) => {
+const MainGuidStep_3 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");
   return (
     <div id={id} className="">
@@ -49,10 +49,6 @@ const MainGuidStep_3 = ({ id, language }) => {
       />
     </div>
   );
-};
-
-MainGuidStep_3.getTitle = (language) => {
-  const { t } = useTranslation("mainGuidSteps");
 };
 
 export default MainGuidStep_3;
