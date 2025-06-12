@@ -14,7 +14,7 @@ import Validator11 from "./Pictures/Validator/validator_11.jpg";
 import Validator12 from "./Pictures/Validator/validator_12.jpg";
 import Validator13 from "./Pictures/Validator/validator_13.jpg";
 
-const MainGuidStep_4 = ({ id, language }) => {
+const MainGuidStep_4 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");
 
   return (
@@ -175,12 +175,6 @@ const MainGuidStep_4 = ({ id, language }) => {
       <p className="ml-4">{t("step4.p24")}</p>
     </div>
   );
-};
-
-// Statische Methode, um den Titel abzurufen
-MainGuidStep_4.getTitle = (language) => {
-  const { t } = useTranslation("mainGuidSteps");
-  return t("step4.title");
 };
 
 export default MainGuidStep_4;

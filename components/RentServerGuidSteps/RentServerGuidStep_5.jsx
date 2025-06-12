@@ -1,29 +1,18 @@
-import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
+import { useTranslation } from "react-i18next";
+import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
 
-const content = {
-  en: {
-    title: "Step 5: Enable WSL",
-    description: "Open PowerShell as Administrator and run the command 'wsl --install'.",
-    imageCaption: "Test",
-  },
-  de: {
-    title: "Schritt 5: Account anlegen und anmelden",
-    description: "Lege einen Account an und melde dich an.",
-    imageCaption: "Test",
-  },
+const RentServerGuidStep_5 = ({ id }) => {
+  const { t } = useTranslation("rentServerGuidSteps");
+
+  return (
+    <div id={id} className="">
+      <GuidStepTemplate
+        id={id}
+        title={t("step5.title")}
+        description={t("step5.description")}
+      />
+    </div>
+  );
 };
 
-const RentServerGuidStep_5 = ({ language }) => {
-	return (
-		<div className="">
-	      <GuidStepTemplate
-	        title={content[language].title}
-	        description={content[language].description}
-
-     	 />
-		</div>
-	);
-}
-
 export default RentServerGuidStep_5;
-

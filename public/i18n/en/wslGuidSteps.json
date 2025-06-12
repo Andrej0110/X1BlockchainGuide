@@ -1,0 +1,14 @@
+{
+  "tableOfContent": "Table of Contents",
+  "introduction": "Setting up remote access",
+  "p01": "PuTTY allows you to securely connect to remote Linux servers or other devices via SSH (Secure Shell) in order to manage them or execute commands. We will use the programme to set up the X1 Blockchain Validator on the server.",
+  "p02": "To do this, go to the website of <telegramLink>PuTTY</telegramLink>.",
+  "step1": {
+      "title": "Step 1: Download and installation",
+      "description": "Download the file and install the programme."
+    },
+  "step2": {
+      "title": "Step 2: Open the programme",
+      "description": "Once you have opened it, it should look like the image below. And that's it, you're done. You now have a programme that allows you to access your new server. Continue with step 3 under Main Guide."
+  }
+}

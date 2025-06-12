@@ -1,24 +1,61 @@
-import GuidStepTemplate from '../GuidStepTemplate/GuidStepTemplate.jsx';
-import InterServer from './Pictures/InterServer08.jpg';
+import { useTranslation, Trans } from "react-i18next";
+import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
+import InterServer08 from "./Pictures/InterServer08.jpg";
 
-const content = {
-  en: {
-    title: "Step 5: Enable WSL",
-    description: "Open PowerShell as Administrator and run the command 'wsl --install'.",
-    description_2: "bla",
-    imageCaption: "Test",
-    buttonText: "WSL Installation (Windows)", // Neuer Text für den Button
-    description_3: "bla",
-  },
-  de: {
-    title: "Schritt 7: IP Adresse",
-    description: "Unter dem Menüpunkt Servers siehst du deinen ausgewählten Server. Es dauert etwa 5–10 Minuten (in Ausnahmefällen bis zu 48h), bis bei dir unter IP eine Adresse angezeigt wird. Diese IP-Adresse werden wir für das Einloggen in den Server benötigen. Lass die Seite geöffnet oder notiere dir die IP-Adresse, sobald sie angezeigt wird.",
-    description_2: "Um die Zeit sinnvoll zu nutzen, fahren wir mit der Einrichtung von Ubuntu fort",
-    imageCaption: "Test",
-    buttonText: "Ubuntu mit PuTTY (Windows)", // Neuer Text für den Button
-    description_3: "Als macOS-Nutzer kannst du mit dem Main Guide fortfahren.",
-  },
+const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
+  const { t } = useTranslation("rentServerGuidSteps");
+
+  const handleButtonClickWsl = () => {
+    setActiveTab("wsl");
+  };
+  const handleButtonClickMain = () => {
+    setActiveTab("main");
+  };
+
+  return (
+    <div id={id} className="">
+      <GuidStepTemplate
+        id={id}
+        title={t("step7.title")}
+        description={t("step7.description")}
+        image={InterServer08}
+      />
+
+      <p className="ml-4">
+        <Trans
+          i18nKey="rentServerGuidSteps:step7:p01"
+          components={{
+            telegramLink: (
+              <a
+                onClick={handleButtonClickWsl}
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+              />
+            ),
+          }}
+        />
+      </p>
+
+      <p className="ml-4">
+        <Trans
+          i18nKey="rentServerGuidSteps:step7:p02"
+          components={{
+            telegramLink: (
+              <a
+                onClick={handleButtonClickMain}
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+              />
+            ),
+          }}
+        />
+      </p>
+    </div>
+  );
 };
+
+export default RentServerGuidStep_7;
+
+{
+  /*
 
 const RentServerGuidStep_7 = ({ language, activeTab, setActiveTab }) => {
   return (
@@ -39,5 +76,5 @@ const RentServerGuidStep_7 = ({ language, activeTab, setActiveTab }) => {
     </div>
   );
 };
-
-export default RentServerGuidStep_7;
+*/
+}

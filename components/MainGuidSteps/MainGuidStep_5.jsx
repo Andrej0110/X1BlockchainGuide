@@ -3,7 +3,7 @@ import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
 import Validator14 from "./Pictures/Validator/validator_14.jpg";
 import DonateButton from "../Buttons/DonateButton.jsx";
 
-const MainGuidStep_4 = ({ id, language }) => {
+const MainGuidStep_4 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");
 
   return (
@@ -27,12 +27,6 @@ const MainGuidStep_4 = ({ id, language }) => {
       <DonateButton />
     </div>
   );
-};
-
-// Statische Methode, um den Titel abzurufen
-MainGuidStep_4.getTitle = (language) => {
-  const { t } = useTranslation("mainGuidSteps");
-  return t("step4.title");
 };
 
 export default MainGuidStep_4;
