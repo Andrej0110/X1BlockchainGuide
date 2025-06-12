@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next';
+import PictureGermanyForButton from "./PictureGermanyForButton.jsx";
+import PictureAmericaForButton from "./PictureAmericaForButton.jsx";
 
 const LanguageButtons = ({language, setLanguage}) => {
 	const { i18n } = useTranslation();
@@ -16,14 +18,14 @@ const LanguageButtons = ({language, setLanguage}) => {
 		          className={`mr-2 px-3 py-1 rounded 
 		          ${language === "de" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-blue-500 hover:text-white"}`}
 		        >
-		          DE
+		          <PictureGermanyForButton />
 		        </button>
 		        <button
 		          onClick={() => setLanguage("en")}
 		          className={`px-3 py-1 rounded 
 		          ${language === "en" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-blue-500 hover:text-white"}`}
 		        >
-		          EN
+		          <PictureAmericaForButton />
 		        </button>
 		      </div>
       </div>

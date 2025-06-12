@@ -1,6 +1,6 @@
 import { useTranslation, Trans } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import InterServer01 from "./Pictures/InterServer01.jpg";
+import InterServer01 from "./Pictures/InterServer01.webp";
 
 const RentServerGuidStep_1 = ({ id }) => {
   const { t } = useTranslation("rentServerGuidSteps");

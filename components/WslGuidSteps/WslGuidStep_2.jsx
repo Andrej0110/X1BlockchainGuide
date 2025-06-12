@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import Putty02 from "./Pictures/Putty02.jpg";
+import Putty02 from "./Pictures/Putty02.webp";
 
 const WslGuidStep_2 = ({ id }) => {
   const { t } = useTranslation("wslGuidSteps");

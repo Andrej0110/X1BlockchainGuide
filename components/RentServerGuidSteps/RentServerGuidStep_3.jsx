@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import InterServer03 from "./Pictures/InterServer03.jpg";
-import InterServer04 from "./Pictures/InterServer04.jpg";
-import InterServer05 from "./Pictures/InterServer05.jpg";
+import InterServer03 from "./Pictures/InterServer03.webp";
+import InterServer04 from "./Pictures/InterServer04.webp";
+import InterServer05 from "./Pictures/InterServer05.webp";
 
 const RentServerGuidStep_3 = ({ id }) => {
   const { t } = useTranslation("rentServerGuidSteps");

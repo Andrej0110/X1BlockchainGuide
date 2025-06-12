@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import ValidatorHardware01 from "./Pictures/Step_1/ValidatorHardware01jpg.jpg";
+import ValidatorHardware01 from "./Pictures/Step_1/ValidatorHardware01jpg.webp";
 
 const MainGuidStep_1 = ({ id, activeTab, setActiveTab }) => {
   const { t } = useTranslation("mainGuidSteps");

@@ -1,6 +1,6 @@
 import { useTranslation, Trans } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import Validator14 from "./Pictures/Validator/validator_14.jpg";
+import Validator14 from "./Pictures/Validator/validator_14.webp";
 import DonateButton from "../Buttons/DonateButton.jsx";
 
 const MainGuidStep_4 = ({ id }) => {

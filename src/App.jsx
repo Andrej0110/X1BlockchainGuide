@@ -11,7 +11,7 @@ import MenuButtons from "../components/Buttons/MenuButtons.jsx";
 import LanguageButtons from "../components/Buttons/LanguageButtons.jsx";
 import "./App.css";
 
-//test2
+
 
 function App() {
   const [activeTab, setActiveTab] = useState("main");

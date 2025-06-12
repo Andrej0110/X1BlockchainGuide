@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import PuttyAddUser01 from "./Pictures/Add_User/PuttyAddUser_01.jpg";
-import PuttyAddUser02 from "./Pictures/Add_User/PuttyAddUser_02.jpg";
-import PuttyAddUser03 from "./Pictures/Add_User/PuttyAddUser_03.jpg";
-import PuttyAddUser05 from "./Pictures/Add_User/PuttyAddUser_05.jpg";
-import PuttyAddUser06 from "./Pictures/Add_User/PuttyAddUser_06.jpg";
+import PuttyAddUser01 from "./Pictures/Add_User/PuttyAddUser_01.webp";
+import PuttyAddUser02 from "./Pictures/Add_User/PuttyAddUser_02.webp";
+import PuttyAddUser03 from "./Pictures/Add_User/PuttyAddUser_03.webp";
+import PuttyAddUser05 from "./Pictures/Add_User/PuttyAddUser_05.webp";
+import PuttyAddUser06 from "./Pictures/Add_User/PuttyAddUser_06.webp";
 
 const MainGuidStep_3 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");

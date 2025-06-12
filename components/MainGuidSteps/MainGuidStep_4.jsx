@@ -1,18 +1,18 @@
 import { useTranslation, Trans } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import Validator01 from "./Pictures/Validator/validator_01.jpg";
-import Validator02 from "./Pictures/Validator/validator_02.jpg";
-import Validator03 from "./Pictures/Validator/validator_03.jpg";
-import Validator04 from "./Pictures/Validator/validator_04.jpg";
-import Validator05 from "./Pictures/Validator/validator_05.jpg";
-import Validator06 from "./Pictures/Validator/validator_06.jpg";
-import Validator07 from "./Pictures/Validator/validator_07.jpg";
-import Validator08 from "./Pictures/Validator/validator_08.jpg";
-import Validator09 from "./Pictures/Validator/validator_09.jpg";
-import Validator10 from "./Pictures/Validator/validator_10.jpg";
-import Validator11 from "./Pictures/Validator/validator_11.jpg";
-import Validator12 from "./Pictures/Validator/validator_12.jpg";
-import Validator13 from "./Pictures/Validator/validator_13.jpg";
+import Validator01 from "./Pictures/Validator/validator_01.webp";
+import Validator02 from "./Pictures/Validator/validator_02.webp";
+import Validator03 from "./Pictures/Validator/validator_03.webp";
+import Validator04 from "./Pictures/Validator/validator_04.webp";
+import Validator05 from "./Pictures/Validator/validator_05.webp";
+import Validator06 from "./Pictures/Validator/validator_06.webp";
+import Validator07 from "./Pictures/Validator/validator_07.webp";
+import Validator08 from "./Pictures/Validator/validator_08.webp";
+import Validator09 from "./Pictures/Validator/validator_09.webp";
+import Validator10 from "./Pictures/Validator/validator_10.webp";
+import Validator11 from "./Pictures/Validator/validator_11.webp";
+import Validator12 from "./Pictures/Validator/validator_12.webp";
+import Validator13 from "./Pictures/Validator/validator_13.webp";
 
 const MainGuidStep_4 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");
