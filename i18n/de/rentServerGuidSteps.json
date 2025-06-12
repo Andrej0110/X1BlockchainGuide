@@ -1,0 +1,38 @@
+{
+    "tableOfContent": "Inhaltsangabe",
+    "introduction": "Einrichten eines Servers",
+    "p01": "In dieser Anleitung zeige ich dir, welchen Server du wählen solltest, um die erforderliche Leistung für deinen Validator auszuwählen.",
+    "p02": "In der <telegramLink>X1 Blockchain Dokumentation</telegramLink> wird der Aniebter InterServer empfohlen.",
+    "p03": "Gehe hierzu auf die Webseite <telegramLink>InterServer</telegramLink> und folge anschließend der Schritt für Schritt Anweisung.",
+    "step1": {
+        "title": "Schritt 1: Auswahl dedizierter Server",
+        "description": "Klicke oben in der Zeile auf Server und wähle anschließend DEDICATED Home. Der Begriff dedicated (dedizierter Server) bedeutet, dass die gesamte Hardware eines physischen Servers nur einem einzigen Kunden zur Verfügung steht. Das unterscheidet einen dedizierten Server von virtuellen Servern (VPS), bei denen sich mehrere Kunden die Ressourcen eines Servers teilen."
+      },
+    "step2": {
+        "title": "Schritt 2: Auswahl Server",
+        "description": "Die Mindestanforderung sind 12 CPUs, und da wir für 153 $ auch einen mit 16 CPUs bekommen können, wählen wir den AMD Ryzen 7950X3D aus und klicken auf 'CONFIGURE NOW'."
+    },
+    "step3": {
+        "title": "Schritt 3: Auswahl Hardware Spezifikation",
+        "description": "Die Mindestanforderungen für den RAM-Speicher betragen 128 GB. Jack Levin empfiehlt, mehr zu verwenden. Du kannst dich für 128 GB entscheiden und später aufrüsten oder direkt 192 GB auswählen. Im Testnet sind derzeit 2 TB NVMe ausreichend, und du kannst dir die Mehrkosten vorerst sparen. Im Mainnet werden später 4 TB NVMe notwendig sein.",
+        "p01": "Unter 'Select OS' wählen wir Ubuntu LTS aus. Den Rest können wir so belassen, wie er durch die Vorauswahl festgelegt wurde. Bestätige deine Auswahl."
+    },
+    "step4": {
+        "title": "Schritt 4: Auswahl prüfen",
+        "description": "Prüfe deine Auswahl und klicke anschließend auf 'CONTINUE'."
+    },
+    "step5": {
+        "title": "Schritt 5: Account anlegen",
+        "description": "Lege einen Account an und melde dich an."
+    },
+    "step6": {
+        "title": "Schritt 6: Root Passwort vergeben",
+        "description": "Den Server-Hostname kannst du beliebig vergeben. Diesen Namen siehst nur du im Terminal, wenn wir den Validator auf den Server installieren. Das Root-Passwort ist wichtig, um sich auf den Server einloggen zu können. Vergeben ein neues Passwort und merke es dir! Schließe den Kauf ab."
+    },
+    "step7": {
+        "title": "Schritt 7: IP Adresse",
+        "description": "Unter dem Menüpunkt Servers siehst du deinen ausgewählten Server. Es dauert etwa 5–10 Minuten (in Ausnahmefällen bis zu 48h), bis bei dir unter IP eine Adresse angezeigt wird. Diese IP-Adresse werden wir für das Einloggen in den Server benötigen. Lass die Seite geöffnet oder notiere dir die IP-Adresse, sobald sie angezeigt wird.",
+        "p01": "Um die Zeit sinnvoll zu nutzen, fahren wir mit der Einrichtung von <telegramLink>Ubuntu (Putty)</telegramLink> fort",
+        "p02": "Als macOS-Nutzer kannst du mit dem <telegramLink>Main Guide</telegramLink> fortfahren."
+    }
+}

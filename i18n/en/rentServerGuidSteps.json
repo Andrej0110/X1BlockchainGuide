@@ -1,0 +1,38 @@
+{
+    "tableOfContent": "Table of Contents",
+    "introduction": "Setting up a server",
+    "p01": "In this guide, I will show you which server you should choose to select the required performance for your validator.",
+    "p02": "The <telegramLink>X1 Blockchain documentation</telegramLink> recommends the provider InterServer.",
+    "p03": "Go to the <telegramLink>InterServer</telegramLink> website and follow the step-by-step instructions.",
+    "step1": {
+        "title": "Step 1: Selecting a dedicated server",
+        "description": "Click on Server at the top of the line and then select DEDICATED Home. The term dedicated means that all the hardware of a physical server is available to a single customer. This distinguishes a dedicated server from virtual servers (VPS), where multiple customers share the resources of a server."
+    },
+    "step2": {
+        "title": "Step 2: Select server",
+        "description": "The minimum requirement is 12 CPUs, and since we can get one with 16 CPUs for $153, we select the AMD Ryzen 7950X3D and click ‘CONFIGURE NOW’."
+    },
+    "step3": {
+        "title": "Step 3: Select hardware specifications",
+        "description": "The minimum requirement for RAM is 128 GB. Jack Levin recommends using more. You can opt for 128 GB and upgrade later, or select 192 GB right away. In the testnet, 2 TB NVMe is currently sufficient, and you can save yourself the additional costs for now. In the mainnet, 4 TB NVMe will be necessary later.",
+        "p01": "Under ‘Select OS’, we select Ubuntu LTS. We can leave the rest as it was preselected. Confirm your selection."
+    },
+    "step4": {
+        "title": "Step 4: Check your selection",
+        "description": "Check your selection and then click ‘CONTINUE’."
+    },
+    "step5": {
+        "title": "Step 5: Create an account and log in",
+        "description": "Create an account and log in."
+    },
+    "step6": {
+        "title": "Step 6: Assign root password",
+        "description": "You can assign any server host name you like. Only you will see this name in the terminal when we install the validator on the server. The root password is important for logging into the server. Assign a new password and remember it! Complete the purchase."
+    },
+    "step7": {
+        "title": "Step 7: IP address",
+        "description": "Under the Servers menu item, you will see your selected server. It takes about 5–10 minutes (in exceptional cases up to 48 hours) for an address to be displayed under IP. We will need this IP address to log in to the server. Leave the page open or write down the IP address as soon as it is displayed.",
+        "p01": "To make good use of the time, we will continue with the <telegramLink>Ubuntu (Putty)</telegramLink> setup.",
+        "p02": "As a macOS user, you can continue with the <telegramLink>Main Guide</telegramLink>."
+    }
+}

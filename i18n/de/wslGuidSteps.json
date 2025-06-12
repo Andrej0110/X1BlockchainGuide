@@ -1,0 +1,14 @@
+{
+  "tableOfContent": "Inhaltsangabe",
+  "introduction": "Einrichten eines Fernzugriffes",
+  "p01": "PuTTY ermöglicht es, sich über SSH (Secure Shell) sicher mit entfernten Linux-Servern oder anderen Geräten zu verbinden, um sie zu verwalten oder Befehle auszuführen. Wir werden das Programm nutzen, um auf dem Server den X1 Blockchain Validator einzurichten.",
+  "p02": "To do this, go to the website of <telegramLink>PuTTY</telegramLink>.",
+  "step1": {
+      "title": "Schritt 1: Download und Installation",
+      "description": "Lade die Datei herunter und installiere das Programm."
+    },
+  "step2": {
+      "title": "Schritt 2: Programm öffnen",
+      "description": "Sobald du es geöffnet hast, sollte es so aussehen wie im Bild unten dargestellt. Und das war’s schon, du bist fertig. Du hast nun ein Programm, mit dem du auf deinen neuen Server zugreifen kannst. Fahre fort mit Schritt 3 unter Main Guide."
+  }
+}
