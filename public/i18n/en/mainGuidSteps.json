@@ -7,14 +7,40 @@
   },
   "step2": {
     "title": "Step 2: Access to server (Windows)",
-    "description": "Configure your server settings..."
+    "description": "If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with:"
   },
   "step3": {
     "title": "Step 3: Connect to Server and add User",
-    "description": "Install the required software..."
+    "description": "Open your PuTTY program and enter the IP address of the server there.",
+    "p01": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
+    "p02": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
+    "p03": "1. Use the command: adduser yourusername",
+    "p04": "2. Next, you must assign a password for the new user.",
+    "p05": "Next, you will be asked if you want to store additional information for the new user.",
+    "p06": "1. Simply press Enter several times.",
+    "p07": "2. Confirm your entry with “Y”.",
+    "p08": "In the next step, our new user will be granted administrative rights.",
+    "p09": "3. sudo usermod -aG sudo yourusername",
+    "p10": "Confirm with Enter. You can then either close PuTTY or enter “exit”.",
+    "p11": "Restart PuTTY, enter your IP address and connect to the server.",
+    "p12": "Log in with your new username.",
+    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image."
   },
   "step4": {
     "title": "Step 4: Start Validation",
-    "description": "Start the validation process..."
+    "description": "Congratulations, you are just one step away from setting up your X1 Validator.",
+    "p01": "We will now begin by copying the X1 Console from <telegramLink>BlackBeard</telegramLink>. A helpful tip: You can paste either by right-clicking or by pressing Shift+Insert.",
+    "p02": "1. To do this, enter the following in the terminal (PuTTY):",
+    "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
+    "p04": "2. Once the copy has been created, you can install the X1 Console on your server using the following command:",
+    "p05": "./x1console.sh",
+    "p06": "3. It takes about 30 seconds before you are asked for the password. Enter the password you set to access the server.",
+    "p07": "After installing the console, it will run automatically. Press Enter once, and you should see the same window as shown in the image below.",
+    "p08": "1. Type “10” to select the “Other” menu and confirm with Enter.",
+    "p09": "Now let's start installing the validator.",
+    "p10": "1. To do this, select menu 1.",
+    "p11": "Occasionally, a pink screen will appear. In this case, simply press the Enter key.",
+    "p12": "Now pay close attention!",
+    "p13": "1. If you lose access to the server, you will also lose access to your wallet. To avoid this, make a note of the seed phrase for each individual wallet – four in total. If, like me, you only see two wallets in your terminal window, simply scroll up. You do not need to write down the “pubkey” address manually, as you can find it in the X1 Console at any time."
   }
 }
