@@ -13,9 +13,6 @@ import Validator10 from "./Pictures/Validator/validator_10.jpg";
 import Validator11 from "./Pictures/Validator/validator_11.jpg";
 import Validator12 from "./Pictures/Validator/validator_12.jpg";
 import Validator13 from "./Pictures/Validator/validator_13.jpg";
-import Validator14 from "./Pictures/Validator/validator_14.jpg";
-import DonateButton from "../Buttons/DonateButton.jsx";
-import { Suspense } from "react";
 
 const MainGuidStep_4 = ({ id, language }) => {
   const { t } = useTranslation("mainGuidSteps");
@@ -101,58 +98,60 @@ const MainGuidStep_4 = ({ id, language }) => {
       <p className="ml-4">{t("step4.p12")}</p>
       <p className="ml-4">{t("step4.p13")}</p>
       <p className="ml-4">
-        2. Sobald du dir deine Seed-Phrasen zu den jeweiligen Wallets notiert
-        hast, benötigt deine 'id' Wallet XNT. Gehe hierzu auf die{" "}
-        <a
-          href="https://faucet.testnet.x1.xyz/"
-          className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Faucet-Webseite
-        </a>
-        .
+        <Trans
+          i18nKey="mainGuidSteps:step4.p14"
+          components={{
+            telegramLink: (
+              <a
+                href="https://faucet.testnet.x1.xyz/"
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        />
       </p>
+
       <p className="ml-4">
-        Sollte das Faucet leer sein, gibt es noch die Option, in der{" "}
-        <a
-          href="https://t.me/+yT0VAcNPFqM3OGQ0"
-          className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Validator Telegram Gruppe
-        </a>{" "}
-        darum zu bitten, dass dir XNT zugesendet wird. Schreibe hierzu einfach
-        in den Chat deine Pubkey/Adresse von der ID Wallet und bitte um XNT.
+        <Trans
+          i18nKey="mainGuidSteps:step4.p15"
+          components={{
+            telegramLink: (
+              <a
+                href="https://t.me/+yT0VAcNPFqM3OGQ0"
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        />
       </p>
+
       <p className="ml-4">
-        Alternativ kannst du mich auch direkt kontaktieren in der
-        Telegram-Gruppe{" "}
-        <a
-          href="https://t.me/X1BlockchainGuide"
-          className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          X1BlockchainGuide
-        </a>
-        .
+        <Trans
+          i18nKey="mainGuidSteps:step4.p16"
+          components={{
+            telegramLink: (
+              <a
+                href="https://t.me/X1BlockchainGuide"
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            ),
+          }}
+        />
       </p>
-      <p className="ml-4">
-        Drücke die Taste Enter und fahre mit der Installation fort. Die
-        Installation kannst du auch ohne XNT abschließen.
-      </p>
+
+      <p className="ml-4">{t("step4.p17")}</p>
       <img
         src={Validator10}
         alt={`Validator 10`}
         className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
       />
-      <p className="ml-4">
-        Sobald die Installation abgeschlossen ist, müssen wir die
-        PATH-Änderungen durchführen. Hierzu beenden wir das dargestellte Menü
-        und die X1 Console.
-      </p>
+      <p className="ml-4">{t("step4.p18")}</p>
       <img
         src={Validator11}
         alt={`Validator 11`}
@@ -163,60 +162,17 @@ const MainGuidStep_4 = ({ id, language }) => {
         alt={`Validator 12`}
         className="mt-4 w-[400px] h-auto rounded-md shadow-sm"
       />
-      <p className="ml-4">
-        1. Anschließend geben wir folgenden Code im Terminal ein:
-      </p>
-      <p className="ml-4">
-        export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-      </p>
-      <p className="ml-4">
-        2. Wir können nun die X1 Console wieder mit dem folgenden Befehl im
-        Terminal öffnen:
-      </p>
-      <p className="ml-4">./x1console.sh</p>
-      <p className="ml-4">
-        Wenn du den Schritt nicht übersprungen hast, dir XNT vom Faucet zu
-        besorgen oder über Telegram, dann sollte bei dir der Status 'Active'
-        sein.
-      </p>
-      <p className="ml-4">
-        Herzlichen Glückwunsch. Du hast es geschafft, dir deinen eigenen X1
-        Blockchain Validator einzurichten.
-      </p>
-      <p className="ml-4">
-        Solltest du den Schritt mit dem XNT übersprungen haben, dann schau dir
-        das nächste Bild an.
-      </p>
+      <p className="ml-4">{t("step4.p19")}</p>
+      <p className="ml-4">{t("step4.p20")}</p>
+      <p className="ml-4">{t("step4.p21")}</p>
+      <p className="ml-4">{t("step4.p22")}</p>
       <img
         src={Validator13}
         alt={`Validator 13`}
         className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
       />
-      <p className="ml-4">
-        Wenn dein Status 'Delinquent' ist, dann benötigt deine ID Wallet
-        mindestens 2 XNT. Ob du bereits die XNT vom Faucet oder einem User
-        erhalten hast, kannst du unter '3. Check Balance' nachschauen.
-      </p>
-      <p className="ml-4">
-        1. Sobald dir die XNT zur Verfügung stehen, wähle 'Health Check and
-        Start Validator' aus. Nach dem Health Check sollte dein Validator den
-        Status 'Active' haben.
-      </p>
-      <p className="ml-4">
-        Solltest du das Terminal schließen, dann kannst du auf die X1 Console,
-        nach dem Login auf deinen Server, mit folgendem Befehl zugreifen:
-      </p>
-      <p className="ml-4">cd x1console && ./x1console.sh</p>
-      <img
-        src={Validator14}
-        alt={`Validator 14`}
-        className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
-      />
-      <h2 className="ml-4">
-        Solltest du das Terminal schließen, kannst du nach dem Login auf deinen
-        Server mit dem folgenden Befehl auf die X1 Console zugreifen:
-      </h2>
-      <DonateButton />
+      <p className="ml-4">{t("step4.p23")}</p>
+      <p className="ml-4">{t("step4.p24")}</p>
     </div>
   );
 };
