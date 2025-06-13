@@ -1,0 +1,48 @@
+{
+
+    "introduction": "Congratulations on discovering the X1 blockchain so early on! Seize this opportunity, become a validator, and reap the benefits.",
+    "advantages": {
+        "title": "Top-5 Benefits",
+        "p01": {
+          "title": "Earn with inflation!",
+          "answer": "Secure a share of the 8% inflation through your votes – start today!"
+        },
+        "p02": {
+          "title": "Benefit from delegators!",
+          "answer": "Get excited about staked XNT tokens and secure approx. 10% commission."
+        },
+        "p03": {
+          "title": "Claim block rewards!",
+          "answer": "With this guide, your chances of becoming a leader increase, and you earn transaction fees – experience the thrill!"
+        },
+        "p04": {
+          "title": "Grab the bootstrap bonus!",
+          "answer": "Take advantage of extra incentives for early adopters and join the X1 network."
+        },
+        "p05": {
+          "title": "No voting costs!",
+          "answer": "Unlike Solana, voting is free – launch your validator easily!"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions (FAQ)",
+        "p01": {
+          "question": "What is an X1 Validator?",
+          "answer": "A validator secures the network and earns rewards through votes and block production."
+        },
+        "p02": {
+          "question": "How much does it cost?",
+          "answer": "Only hardware costs; voting is free of charge – an advantage over Solana."
+        },
+        "p03": {
+          "question": "How do I get started?",
+          "answer": "Three steps and you're ready to go:",
+          "steps": ["Rent a server.", "Access to the server.", "Read this guide and get started!"]
+        },
+        "p04": {
+          "question": "What makes this guide special?",
+          "answer": "It uses BlackBeard's X1 Console, which automates most installations – saving time and effort!"
+        }
+      }
+    }
+  

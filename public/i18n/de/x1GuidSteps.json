@@ -1,0 +1,46 @@
+{
+    "introduction": "Herzlichen Glückwunsch, dass du die X1 Blockchain so früh entdeckt hast! Nutze deine Chance, werde Validator und profitiere davon.",
+    "advantages": {
+        "title": "Top-5-Vorteile",
+        "p01": {
+          "title": "Verdiene mit Inflation!",
+          "answer": "Sichere dir einen Anteil an der 8 %-Inflation durch deine Votes – starte noch heute!"
+        },
+        "p02": {
+          "title": "Profitieren von Delegatoren!",
+          "answer": "Lass dich von gestakten XNT-Token begeistern und sichere ca. 10 % Kommission."
+        },
+        "p03": {
+          "title": "Hol dir die Block-Belohnungen!",
+          "answer": "Mit diesem Guide steigen deine Chancen, Leader zu werden, und du verdienst Transaktionsgebühren – erlebe den Nervenkitzel!"
+        },
+        "p04": {
+          "title": "Greife den Bootstrap-Bonus!",
+          "answer": "Nutze extra Anreize für Frühstarter und werde Teil des X1-Netzwerks."
+        },
+        "p05": {
+          "title": "Keine Voting-Kosten!",
+          "answer": "Im Gegensatz zu Solana kostet Voting nichts – starte deinen Validator einfach los!"
+        }
+      },
+      "faq": {
+        "title": "Häufige Fragen (FAQ)",
+        "p01": {
+          "question": "Was ist ein X1 Validator?",
+          "answer": "Ein Validator sichert das Netzwerk und verdient Belohnungen durch Votes und Block-Produktion."
+        },
+        "p02": {
+          "question": "Wie hoch sind die Kosten?",
+          "answer": "Nur Hardware-Kosten, Voting ist kostenfrei – ein Vorteil gegenüber Solana."
+        },
+        "p03": {
+          "question": "Wie starte ich?",
+          "answer": "Mit drei Schritten bist du bereit:",
+          "steps": ["Server mieten.", "Zugang zum Server.", "Lies diesen Guide und starte durch!"]
+        },
+        "p04": {
+          "question": "Warum ist dieser Guide besonders?",
+          "answer": "Er nutzt die X1 Console von BlackBeard, mit der die meisten Installationen automatisch erfolgen – Zeit und Aufwand gespart!"
+        }
+      }
+  }

@@ -7,14 +7,15 @@ import Logo from "../components/Logo/x1Logo";
 import MainGuidSteps from "../components/MainGuidSteps/MainGuidSteps.jsx";
 import WslGuidSteps from "../components/WslGuidSteps/WslGuidSteps.jsx";
 import RentServerGuidSteps from "../components/RentServerGuidSteps/RentServerGuidSteps.jsx";
+import X1GuidSteps from "../components/X1GuidSteps/X1GuidSteps.jsx";
 import MenuButtons from "../components/Buttons/MenuButtons.jsx";
 import LanguageButtons from "../components/Buttons/LanguageButtons.jsx";
 import "./App.css";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("main");
+  const [activeTab, setActiveTab] = useState("x1");
   const [language, setLanguage] = useState("en");
-  const { t, i18n } = useTranslation(); // i18n hinzugefügt
+  const { t, i18n } = useTranslation();
 
   // Synchronisiere i18next-Sprache mit language-State
   useEffect(() => {
@@ -34,6 +35,14 @@ function App() {
         </div>
 
         <MenuButtons activeTab={activeTab} setActiveTab={setActiveTab} />
+        {activeTab === "x1" && (
+          <X1GuidSteps
+            language={language}
+            t={t}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+        )}
         {activeTab === "main" && (
           <MainGuidSteps
             language={language}
