@@ -9,7 +9,7 @@
         "description": "Click on Server at the top of the line and then select DEDICATED Home. The term dedicated means that all the hardware of a physical server is available to a single customer. This distinguishes a dedicated server from virtual servers (VPS), where multiple customers share the resources of a server."
     },
     "step2": {
-        "title": "Step 2: Select server",
+        "title": "Step 2: Select processor",
         "description": "The minimum requirement is 12 CPUs, and since we can get one with 16 CPUs for $153, we select the AMD Ryzen 7950X3D and click ‘CONFIGURE NOW’."
     },
     "step3": {

@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import WslGuidStep_1 from "./WslGuidStep_1.jsx";
 import WslGuidStep_2 from "./WslGuidStep_2.jsx";
+import WslGuidStep_3 from "./WslGuidStep_3.jsx";
 import TableOfContentWslGuid from "./TableOfContentWslGuid.jsx";
 
 const WslGuidSteps = ({ language, activeTab, setActiveTab }) => {
@@ -9,6 +10,7 @@ const WslGuidSteps = ({ language, activeTab, setActiveTab }) => {
   const steps = [
     { component: WslGuidStep_1, id: "step1" },
     { component: WslGuidStep_2, id: "step2" },
+    { component: WslGuidStep_3, id: "step3" },
   ];
 
   const stepTitles = steps.map((step) => t(`${step.id}.title`));

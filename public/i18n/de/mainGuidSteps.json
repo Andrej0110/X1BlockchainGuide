@@ -6,30 +6,14 @@
     "buttonText": "Server mieten"
   },
   "step2": {
-    "title": "Schritt 2: Zugriff auf Server (Windows)",
-    "description": "Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:"
+    "title": "Schritt 2: Mit Server verbinden",
+    "description": "Verbinde dich mit deinem Server. Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
+    "buttonText": "Ubuntu (PuTTY)"
   },
   "step3": {
-    "title": "Schritt 3: Mit Server verbinden und neuen Benutzer anlegen",
-    "description": "Öffne dein PuTTY Programm und gib dort die IP Adresse von dem Server ein.",
-    "p01": "Zuerst müssen wir uns mit dem Benutzernamen 'root' anmelden, um einen neuen Benutzernamen anlegen zu können. Wenn du der Schritt-für-Schritt-Anleitung unter 'Server mieten' gefolgt bist, gib das Passwort ein, das du bei InterServer festgelegt hast. Beachte bei der Eingabe in PuTTY, dass dir die Eingabe des Passworts nicht angezeigt wird! Tippe das Passwort ein und drücke Enter.",
-    "p02": "Sobald wir uns auf den Server eingeloggt haben, legen wir einen neuen Benutzer an. Im Beispiel lege ich den Benutzer 'test' an. Unter diesem Benutzernamen werden wir in Schritt 4 den Validator einrichten.",
-    "p03": "1. Verwende hierzu den Befehl: adduser yourusername",
-    "p04": "2. Anschließend musst du für den neuen Benutzer ein Passwort vergeben.",
-    "p05": "Als nächstes wirst du gefragt, ob du dem neuen Benutzer weitere Informationen hinterlegen möchtest.",
-    "p06": "1. Einfach nur mehrmals Enter drücken",
-    "p07": "2. Eingabe mit 'Y' bestättigen.",
-    "p08": "Im nächsten Schritt erhält unser neuer Benutzer Administrationsrechte.",
-    "p09": "3. sudo usermod -aG sudo yourusername",
-    "p10": "Mit Enter bestätigen. Anschließend kannst du entweder PuTTY schließen oder 'exit' eingeben.",
-    "p11": "Starte erneut PuTTY, gib deine IP-Adresse ein und verbinde dich mit dem Server.",
-    "p12": "Melde dich mit dem neuen Benutzernamen an.",
-    "p13": "Du siehst nun, dass du unter dem neuen Benutzernamen angemeldet bist. Unten im Bild ist es mit dem grünen Pfeil dargestellt."
-  },
-  "step4": {
-    "title": "Schritt 4: Server einrichten",
+    "title": "Schritt 3: Server einrichten",
     "description": "Herzlichen Glückwunsch, dir fehlt nur noch der letzte Schritt um deinen X1 Validator einzurichten.",
-    "p01": "Wir fangen nun damit an, die X1 Console von <telegramLink>BlackBeard</telegramLink> zu kopieren. Kleiner Tipp: Einfügen kannst du entweder mit einem Klick der rechten Maustaste oder mit Shift+einfg.",
+    "p01": "Wir fangen nun damit an, die <telegramLink>X1 Console von BlackBeard</telegramLink> zu kopieren. Kleiner Tipp: Einfügen kannst du in das Terminal entweder mit einem Klick der rechten Maustaste oder mit Shift+einfg.",
     "p02": "1. Gib hierzu im Terminal (PuTTY) Folgendes ein:",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Sobald die Kopie erstellt ist, kannst du die X1 Console mit dem folgenden Befehl auf deinem Server installieren:",
@@ -54,8 +38,8 @@
     "p23": "Wenn du den Schritt nicht übersprungen hast, dir XNT vom Faucet zu besorgen oder über Telegram, dann sollte bei dir der Status 'Active' sein.",
     "p24": "Herzlichen Glückwunsch. Du hast es geschafft, dir deinen eigenen X1 Blockchain Validator einzurichten."
   },
-  "step5": {
-    "title": "Schritt 5: Status Delinquent",
+  "step4": {
+    "title": "Schritt 4: Status Delinquent",
     "description": "Solltest du den Schritt mit dem XNT übersprungen haben, dann schau dir das nächste Bild an.",
     "p01": "Wenn dein Status 'Delinquent' ist, dann benötigt deine ID Wallet mindestens 1 XNT. Ob du bereits die XNT vom Faucet oder einem User erhalten hast, kannst du unter '3. Check Balance' nachschauen.",
     "p02": "1. Sobald dir die XNT zur Verfügung stehen, wähle 'Health Check and Start Validator' aus. Nach dem Health Check sollte dein Validator den Status 'Active' haben.",

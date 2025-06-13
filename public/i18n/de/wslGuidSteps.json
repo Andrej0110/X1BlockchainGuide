@@ -10,5 +10,23 @@
   "step2": {
       "title": "Schritt 2: Programm öffnen",
       "description": "Sobald du es geöffnet hast, sollte es so aussehen wie im Bild unten dargestellt. Und das war’s schon, du bist fertig. Du hast nun ein Programm, mit dem du auf deinen neuen Server zugreifen kannst. Fahre fort mit Schritt 3 unter Main Guide."
+  },
+  "step3": {
+    "title": "Schritt 3: Mit Server verbinden und neuen Benutzer anlegen",
+    "description": "Öffne dein PuTTY Programm und gib dort die IP Adresse von dem Server ein.",
+    "p01": "Zuerst müssen wir uns mit dem Benutzernamen 'root' anmelden, um einen neuen Benutzernamen anlegen zu können. Wenn du der Schritt-für-Schritt-Anleitung unter 'Server mieten' gefolgt bist, gib das Passwort ein, das du bei InterServer festgelegt hast. Beachte bei der Eingabe in PuTTY, dass dir die Eingabe des Passworts nicht angezeigt wird! Tippe das Passwort ein und drücke Enter.",
+    "p02": "Sobald wir uns auf den Server eingeloggt haben, legen wir einen neuen Benutzer an. Im Beispiel lege ich den Benutzer 'test' an. Unter diesem Benutzernamen werden wir in Schritt 4 den Validator einrichten.",
+    "p03": "1. Verwende hierzu den Befehl: ",
+    "p03_01":"adduser yourusername",
+    "p04": "2. Anschließend musst du für den neuen Benutzer ein Passwort vergeben.",
+    "p05": "Als nächstes wirst du gefragt, ob du dem neuen Benutzer weitere Informationen hinterlegen möchtest.",
+    "p06": "1. Einfach nur mehrmals Enter drücken",
+    "p07": "2. Eingabe mit 'Y' bestättigen.",
+    "p08": "Im nächsten Schritt erhält unser neuer Benutzer Administrationsrechte.",
+    "p09": "sudo usermod -aG sudo yourusername",
+    "p10": "Mit Enter bestätigen und anschließend kannst du entweder PuTTY schließen oder 'exit' eingeben.",
+    "p11": "Starte erneut PuTTY, gib deine IP-Adresse ein und verbinde dich mit dem Server.",
+    "p12": "Melde dich mit dem neuen Benutzernamen an.",
+    "p13": "Du siehst nun, dass du unter dem neuen Benutzernamen angemeldet bist. Unten im Bild ist es mit dem grünen Pfeil dargestellt."
   }
 }

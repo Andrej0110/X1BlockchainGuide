@@ -3,7 +3,6 @@ import MainGuidStep_1 from "./MainGuidStep_1.jsx";
 import MainGuidStep_2 from "./MainGuidStep_2.jsx";
 import MainGuidStep_3 from "./MainGuidStep_3.jsx";
 import MainGuidStep_4 from "./MainGuidStep_4.jsx";
-import MainGuidStep_5 from "./MainGuidStep_5.jsx";
 import TableOfContentMainGuid from "./TableOfContentMainGuid.jsx";
 
 const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
@@ -14,7 +13,6 @@ const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
     { component: MainGuidStep_2, id: "step2" },
     { component: MainGuidStep_3, id: "step3" },
     { component: MainGuidStep_4, id: "step4" },
-    { component: MainGuidStep_5, id: "step5" },
   ];
 
   // Optional: Schritt-Titel direkt aus Übersetzungen holen (falls getTitle nicht mehr genutzt wird)

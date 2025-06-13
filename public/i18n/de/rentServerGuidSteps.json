@@ -9,7 +9,7 @@
         "description": "Klicke oben in der Zeile auf Server und wähle anschließend DEDICATED Home. Der Begriff dedicated (dedizierter Server) bedeutet, dass die gesamte Hardware eines physischen Servers nur einem einzigen Kunden zur Verfügung steht. Das unterscheidet einen dedizierten Server von virtuellen Servern (VPS), bei denen sich mehrere Kunden die Ressourcen eines Servers teilen."
       },
     "step2": {
-        "title": "Schritt 2: Auswahl Server",
+        "title": "Schritt 2: Auswahl Prozessor",
         "description": "Die Mindestanforderung sind 12 CPUs, und da wir für 153 $ auch einen mit 16 CPUs bekommen können, wählen wir den AMD Ryzen 7950X3D aus und klicken auf 'CONFIGURE NOW'."
     },
     "step3": {

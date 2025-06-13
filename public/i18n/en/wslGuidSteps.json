@@ -10,5 +10,23 @@
   "step2": {
       "title": "Step 2: Open the programme",
       "description": "Once you have opened it, it should look like the image below. And that's it, you're done. You now have a programme that allows you to access your new server. Continue with step 3 under Main Guide."
+  },
+  "step3": {
+    "title": "Step 3: Connect to Server and add User",
+    "description": "Open your PuTTY program and enter the IP address of the server there.",
+    "p01": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
+    "p02": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
+    "p03": "1. Use the command:",
+    "p03_01":"adduser yourusername",
+    "p04": "2. Next, you must assign a password for the new user.",
+    "p05": "Next, you will be asked if you want to store additional information for the new user.",
+    "p06": "1. Simply press Enter several times.",
+    "p07": "2. Confirm your entry with “Y”.",
+    "p08": "In the next step, our new user will be granted administrative rights.",
+    "p09": "sudo usermod -aG sudo yourusername",
+    "p10": "Confirm with Enter, and then you can either close PuTTY or enter ‘exit’.",
+    "p11": "Restart PuTTY, enter your IP address and connect to the server.",
+    "p12": "Log in with your new username.",
+    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image."
   }
 }

@@ -1,52 +1,182 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
-import PuttyAddUser01 from "./Pictures/Add_User/PuttyAddUser_01.webp";
-import PuttyAddUser02 from "./Pictures/Add_User/PuttyAddUser_02.webp";
-import PuttyAddUser03 from "./Pictures/Add_User/PuttyAddUser_03.webp";
-import PuttyAddUser05 from "./Pictures/Add_User/PuttyAddUser_05.webp";
-import PuttyAddUser06 from "./Pictures/Add_User/PuttyAddUser_06.webp";
+import Validator01 from "./Pictures/Validator/validator_01.webp";
+import Validator02 from "./Pictures/Validator/validator_02.webp";
+import Validator03 from "./Pictures/Validator/validator_03.webp";
+import Validator04 from "./Pictures/Validator/validator_04.webp";
+import Validator05 from "./Pictures/Validator/validator_05.webp";
+import Validator06 from "./Pictures/Validator/validator_06.webp";
+import Validator07 from "./Pictures/Validator/validator_07.webp";
+import Validator08 from "./Pictures/Validator/validator_08.webp";
+import Validator09 from "./Pictures/Validator/validator_09.webp";
+import Validator10 from "./Pictures/Validator/validator_10.webp";
+import Validator11 from "./Pictures/Validator/validator_11.webp";
+import Validator12 from "./Pictures/Validator/validator_12.webp";
+import Validator13 from "./Pictures/Validator/validator_13.webp";
+import CopyCodeButton from "../Buttons/CopyCodeButton.jsx";
 
 const MainGuidStep_3 = ({ id }) => {
   const { t } = useTranslation("mainGuidSteps");
+
   return (
     <div id={id} className="">
       <GuidStepTemplate
         id={id}
         title={t("step3.title")}
-        description={t("step3.description")}
-        image={PuttyAddUser01}
-        imageClassName="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-        //imageCaption={content[language].imageCaption}
+        description={t("step4.description")}
       />
-      <p className="ml-4">{t("step3.p01")}</p>
-      <img
-        src={PuttyAddUser02}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p02")}</p>
-      <p className="ml-4">{t("step3.p03")}</p>
-      <p className="ml-4">{t("step3.p04")}</p>
-      <img
-        src={PuttyAddUser03}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p05")}</p>
-      <p className="ml-4">{t("step3.p06")}</p>
-      <p className="ml-4">{t("step3.p07")}</p>
-      <p className="ml-4">{t("step3.p08")}</p>
-      <p className="ml-4">{t("step3.p09")}</p>
-      <p className="ml-4">{t("step3.p10")}</p>
-      <img
-        src={PuttyAddUser05}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p11")}</p>
-      <p className="ml-4">{t("step3.p12")}</p>
-      <p className="ml-4">{t("step3.p13")}</p>
-      <img
-        src={PuttyAddUser06}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
+
+      <div className="ml-4">
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p01"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://github.com/BlackBeard085/x1console"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ),
+            }}
+          />
+        </p>
+
+        <p>{t("step3.p02")}</p>
+        <CopyCodeButton command={t("step3.p03")} />
+        <p>{t("step3.p04")}</p>
+        <CopyCodeButton command={t("step3.p05")} />
+        <p>{t("step3.p06")}</p>
+        <img
+          src={Validator01}
+          alt={`Validator 1`}
+          className="mt-4 w-[800px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p07")}</p>
+        <p>{t("step3.p08")}</p>
+        <img
+          src={Validator02}
+          alt={`Validator 2`}
+          className="mt-4 w-[800px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p09")}</p>
+        <p>{t("step3.p10")}</p>
+        <img
+          src={Validator03}
+          alt={`Validator 3`}
+          className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator04}
+          alt={`Validator 4`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p11")}</p>
+        <img
+          src={Validator05}
+          alt={`Validator 5`}
+          className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator06}
+          alt={`Validator 6`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator07}
+          alt={`Validator 7`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator08}
+          alt={`Validator 8`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator09}
+          alt={`Validator 9`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p12")}</p>
+        <p>{t("step3.p13")}</p>
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p14"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://faucet.testnet.x1.xyz/"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ),
+            }}
+          />
+        </p>
+
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p15"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://t.me/+yT0VAcNPFqM3OGQ0"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ),
+            }}
+          />
+        </p>
+
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p16"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://t.me/X1BlockchainGuide"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ),
+            }}
+          />
+        </p>
+
+        <p>{t("step3.p17")}</p>
+        <img
+          src={Validator10}
+          alt={`Validator 10`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p18")}</p>
+        <img
+          src={Validator11}
+          alt={`Validator 11`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <img
+          src={Validator12}
+          alt={`Validator 12`}
+          className="mt-4 w-[400px] h-auto rounded-md shadow-sm"
+        />
+        <p>{t("step3.p19")}</p>
+        <CopyCodeButton command={t("step3.p20")} />
+        <p>{t("step3.p21")}</p>
+        <CopyCodeButton command={t("step3.p22")} />
+        <img
+          src={Validator13}
+          alt={`Validator 13`}
+          className="mt-4 w-[900px] h-auto rounded-md shadow-sm"
+        />
+        <p> {t("step3.p23")}</p>
+        <p>{t("step3.p24")}</p>
+      </div>
     </div>
   );
 };

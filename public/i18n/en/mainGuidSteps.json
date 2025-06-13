@@ -6,30 +6,14 @@
     "buttonText": "Rent Server"
   },
   "step2": {
-    "title": "Step 2: Access to server (Windows)",
-    "description": "If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with:"
+    "title": "Step 2: Connect to Server",
+    "description": "Connect to your server. If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with:",
+    "buttonText": "Ubuntu (PuTTY)"
   },
   "step3": {
-    "title": "Step 3: Connect to Server and add User",
-    "description": "Open your PuTTY program and enter the IP address of the server there.",
-    "p01": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
-    "p02": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
-    "p03": "1. Use the command: adduser yourusername",
-    "p04": "2. Next, you must assign a password for the new user.",
-    "p05": "Next, you will be asked if you want to store additional information for the new user.",
-    "p06": "1. Simply press Enter several times.",
-    "p07": "2. Confirm your entry with “Y”.",
-    "p08": "In the next step, our new user will be granted administrative rights.",
-    "p09": "3. sudo usermod -aG sudo yourusername",
-    "p10": "Confirm with Enter. You can then either close PuTTY or enter “exit”.",
-    "p11": "Restart PuTTY, enter your IP address and connect to the server.",
-    "p12": "Log in with your new username.",
-    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image."
-  },
-  "step4": {
-    "title": "Step 4: Start Validation",
+    "title": "Step 3: Start Validation",
     "description": "Congratulations, you are just one step away from setting up your X1 Validator.",
-    "p01": "We will now begin by copying the X1 Console from <telegramLink>BlackBeard</telegramLink>. A helpful tip: You can paste either by right-clicking or by pressing Shift+Insert.",
+    "p01": "We will now begin by copying the  <telegramLink>X1 Console from BlackBeard</telegramLink>. A helpful tip: You can paste into the terminal either by right-clicking or by pressing Shift+Insert.",
     "p02": "1. To do this, enter the following in the terminal (PuTTY):",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Once the copy has been created, you can install the X1 Console on your server using the following command:",
@@ -54,8 +38,8 @@
     "p23": "If you haven't skipped the step of obtaining XNT from the faucet or via Telegram, your status should be “Active”.",
     "p24": "Congratulations. You have successfully set up your own X1 blockchain validator."
   },
-  "step5": {
-    "title": "Step 5: Delinquent status",
+  "step4": {
+    "title": "Step 4: Delinquent status",
     "description": "If you skipped the step with the XNT, take a look at the next image.",
     "p01": "If your status is “Delinquent”, your ID Wallet must have at least 1 XNT. You can check whether you have already received XNT from the faucet or a user under “3. Check Balance”.",
     "p02": "1. Once you have access to XNT, select “Health Check and Start Validator”. After the health check, your validator should have the status “Active”.",
