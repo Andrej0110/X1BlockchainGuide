@@ -15,7 +15,7 @@ const MainGuidStep_1 = ({ id, activeTab, setActiveTab }) => {
         setActiveTab={setActiveTab}
         tabValue="rent"
         image={ValidatorHardware01}
-        imageClassName="mt-4 w-[400px] h-auto rounded-md shadow-sm"
+        imageClassName=" w-[400px] img"
       />
     </div>
   );

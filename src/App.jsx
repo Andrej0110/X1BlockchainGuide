@@ -11,8 +11,6 @@ import MenuButtons from "../components/Buttons/MenuButtons.jsx";
 import LanguageButtons from "../components/Buttons/LanguageButtons.jsx";
 import "./App.css";
 
-
-
 function App() {
   const [activeTab, setActiveTab] = useState("main");
   const [language, setLanguage] = useState("en");
@@ -30,8 +28,10 @@ function App() {
           <Logo />
           {t("logo_title", { ns: "app" })}
         </h1>
-        <h2>{t("description", { ns: "app" })}</h2>
-        <LanguageButtons language={language} setLanguage={setLanguage} />
+        <div className="ml-4">
+          <h2 className="mb-2">{t("description", { ns: "app" })}</h2>
+          <LanguageButtons language={language} setLanguage={setLanguage} />
+        </div>
 
         <MenuButtons activeTab={activeTab} setActiveTab={setActiveTab} />
         {activeTab === "main" && (

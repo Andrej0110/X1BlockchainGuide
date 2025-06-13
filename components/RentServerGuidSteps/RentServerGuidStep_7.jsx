@@ -53,28 +53,3 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
 };
 
 export default RentServerGuidStep_7;
-
-{
-  /*
-
-const RentServerGuidStep_7 = ({ language, activeTab, setActiveTab }) => {
-  return (
-    <div className="">
-      <GuidStepTemplate
-        title={content[language].title}
-        description={content[language].description}
-        description_2={content[language].description_2}
-
-        buttonText={content[language].buttonText} // Button-Text basierend auf Sprache
-        activeTab={activeTab} // Aktueller Tab
-        setActiveTab={setActiveTab} // Funktion zum Wechseln des Tabs
-        tabValue="wsl" // Tab-Wert für diesen Button
-        description_3={content[language].description_3}
-        image={InterServer}
-        imageCaption={content[language].imageCaption}
-      />
-    </div>
-  );
-};
-*/
-}

@@ -14,20 +14,13 @@ const RentServerGuidStep_3 = ({ id }) => {
         title={t("step3.title")}
         description={t("step3.description")}
         image={InterServer03}
-        imageClassName="mt-4 w-[700px] h-auto rounded-md shadow-sm"
+        imageClassName="w-[700px] img"
       />
-      <div className="image-container">
-        <p className="ml-4">{t("step.p01")}</p>
-        <img
-          src={InterServer04}
-          alt={`Test1`}
-          className="mt-4 w-[700px] h-auto rounded-md shadow-sm"
-        />
-        <img
-          src={InterServer05}
-          alt={`Test2`}
-          className="mt-4 w-[700px] h-auto rounded-md shadow-sm"
-        />
+
+      <div className="image-container, ml-4">
+        <p>{t("step3.p01")}</p>
+        <img src={InterServer04} alt={`Test1`} className="w-[700px] img" />
+        <img src={InterServer05} alt={`Test2`} className="w-[700px] img" />
       </div>
     </div>
   );

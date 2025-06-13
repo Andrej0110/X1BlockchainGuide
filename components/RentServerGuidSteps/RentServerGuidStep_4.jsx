@@ -12,7 +12,7 @@ const RentServerGuidStep_4 = ({ id }) => {
         title={t("step4.title")}
         description={t("step4.description")}
         image={InterServer06}
-        imageClassName="mt-4 w-[400px] h-auto rounded-md shadow-sm"
+        imageClassName="w-[400px] img"
       />
     </div>
   );

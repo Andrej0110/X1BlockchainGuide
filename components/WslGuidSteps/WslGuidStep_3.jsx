@@ -16,45 +16,29 @@ const WslGuidStep_3 = ({ id }) => {
         title={t("step3.title")}
         description={t("step3.description")}
         image={PuttyAddUser01}
-        imageClassName="mt-4 w-[600px] h-auto rounded-md shadow-sm"
+        imageClassName="w-[600px] img"
       />
-      <p className="ml-4">{t("step3.p01")}</p>
-      <img
-        src={PuttyAddUser02}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p02")}</p>
-      <p className="ml-4">{t("step3.p03")}</p>
       <div className="ml-4">
+        <p>{t("step3.p01")}</p>
+        <img src={PuttyAddUser02} className="w-[600px] img" />
+        <p>{t("step3.p02")}</p>
+        <p>{t("step3.p03")}</p>
         <CopyCodeButton command={t("step3.p03_01")} />
-      </div>
-
-      <p className="ml-4">{t("step3.p04")}</p>
-      <img
-        src={PuttyAddUser03}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p05")}</p>
-      <p className="ml-4">{t("step3.p06")}</p>
-      <p className="ml-4">{t("step3.p07")}</p>
-      <p className="ml-4">{t("step3.p08")}</p>
-
-      <div className="ml-4">
+        <p>{t("step3.p04")}</p>
+        <img src={PuttyAddUser03} className="w-[600px] img" />
+        <p>{t("step3.p05")}</p>
+        <p>{t("step3.p06")}</p>
+        <p>{t("step3.p07")}</p>
+        <p>{t("step3.p08")}</p>
         <p>3.</p>
         <CopyCodeButton command={t("step3.p09")} />
+        <p>{t("step3.p10")}</p>
+        <img src={PuttyAddUser05} className="w-[600px] img" />
+        <p>{t("step3.p11")}</p>
+        <p>{t("step3.p12")}</p>
+        <p>{t("step3.p13")}</p>
+        <img src={PuttyAddUser06} className="w-[600px] img" />
       </div>
-      <p className="ml-4">{t("step3.p10")}</p>
-      <img
-        src={PuttyAddUser05}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
-      <p className="ml-4">{t("step3.p11")}</p>
-      <p className="ml-4">{t("step3.p12")}</p>
-      <p className="ml-4">{t("step3.p13")}</p>
-      <img
-        src={PuttyAddUser06}
-        className="mt-4 w-[600px] h-auto rounded-md shadow-sm"
-      />
     </div>
   );
 };

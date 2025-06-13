@@ -12,7 +12,7 @@ const MainGuidStep_2 = ({ id, activeTab, setActiveTab }) => {
         description={t("step2.description")}
         buttonText={t("step2.buttonText")}
         image={PuttyAddUser01}
-        imageClassName="mt-4 w-[600px] h-auto rounded-md shadow-sm"
+        imageClassName="w-[600px] img"
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         tabValue="wsl"

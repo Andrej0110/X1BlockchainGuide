@@ -35,7 +35,7 @@
     "p20": "export PATH='$HOME/.local/share/solana/install/active_release/bin:$PATH'",
     "p21": "2. Wir können nun die X1 Console wieder mit dem folgenden Befehl im Terminal öffnen:",
     "p22": "./x1console.sh",
-    "p23": "Wenn du den Schritt nicht übersprungen hast, dir XNT vom Faucet zu besorgen oder über Telegram, dann sollte bei dir der Status 'Active' sein.",
+    "p23": "Wenn du den Schritt nicht übersprungen hast, dir XNT zu besorgen, dann sollte bei dir der Status 'Active' sein.",
     "p24": "Herzlichen Glückwunsch. Du hast es geschafft, dir deinen eigenen X1 Blockchain Validator einzurichten."
   },
   "step4": {
