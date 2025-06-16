@@ -46,9 +46,15 @@
       },
       "sources": {
         "title": "Sources",
-        "p01": "X1 official documentation",
-        "p02": "X1 Validator Telegram group",
-        "p03": "X account X1 Blockchain and Jack Levin"
+        "p01": "X1 Website",
+        "p02": "X1 official documentation",
+        "p03": "X1 Validator Telegram group",
+        "p04": "X account X1 Blockchain and Jack Levin",
+        "p05": "X account Jack Levin"
+      },
+      "author": {
+        "title": "About the author",
+        "p01": "Written by Andrejⓧ1, an avid Xenian who has been involved with Xen and X1 since day 1. With a deep passion for blockchain technologies and the X1 community, I share my knowledge to help others get started. Contact Telegram: <telegramLink>X1BlockchainGuide</telegramLink>"
       }
     }
   
