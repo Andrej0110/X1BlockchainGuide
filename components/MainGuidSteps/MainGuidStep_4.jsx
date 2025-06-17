@@ -11,7 +11,7 @@ const MainGuidStep_4 = ({ id }) => {
     <div id={id}>
       <GuidStepTemplate id={id} title={t("step4.title")} />
 
-      <div className="ml-4">
+      <div className="ml-4 mr-4">
         <p>{t("step4.description")}</p>
         <p>{t("step4.p01")}</p>
         <p>{t("step4.p02")}</p>

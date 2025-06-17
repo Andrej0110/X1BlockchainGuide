@@ -1,11 +1,25 @@
-import { useTranslation } from "react-i18next";
-import "./X1GuidSteps_1.css";
+import { useTranslation, Trans } from "react-i18next";
+import "./X1GuidSteps.css";
 
-const X1GuidStep_2 = ({ language, activeTab, setActiveTab }) => {
+const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
   const { t } = useTranslation("x1GuidSteps");
 
+  const handleButtonClickMain = (e) => {
+    e.preventDefault(); // Verhindert das Standard-Verhalten des Links
+    setActiveTab("main");
+    // Warte kurz, bis der neue Abschnitt gerendert ist, dann scrollen
+    setTimeout(() => {
+      const mainSection = document.getElementById("main-content");
+      if (mainSection) {
+        mainSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 0);
+  };
+
   return (
-    <div className="ml-4">
+    <div className="ml-4" id="faq"> {/* Anker für diesen Abschnitt */}
       <h2 className="mt-6 mb-4 text-2xl font-bold">{t("faq.title")}</h2>
       <ul className="ml-6 space-y-2">
         <li>
@@ -18,7 +32,22 @@ const X1GuidStep_2 = ({ language, activeTab, setActiveTab }) => {
         </li>
         <li>
           <span className="font-bold">{t("faq.p03.question")}</span>
-          <span className="ml-2">{t("faq.p03.answer")}</span>
+          <span className="ml-2">
+            <Trans
+              i18nKey="x1GuidSteps:faq.p03.answer"
+              components={{
+                telegramLink: (
+                  <a
+                    href="#main" // Verweist auf den Main Guide Abschnitt
+                    onClick={handleButtonClickMain}
+                    className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  >
+                    Main Guide
+                  </a>
+                ),
+              }}
+            />
+          </span>
           <ol className="ml-6 mt-1 space-y-1">
             <li>{t("faq.p03.steps.0")}</li>
             <li>{t("faq.p03.steps.1")}</li>
@@ -35,25 +64,3 @@ const X1GuidStep_2 = ({ language, activeTab, setActiveTab }) => {
 };
 
 export default X1GuidStep_2;
-
-{
-  /*
-
- Quellen
-• [<a href="https://docs.x1.xyz/">X1 Offizielle Dokumentation</a>]
-• [<a href="https://t.me/x1validators">X1 Validators Telegram-Gruppe</a>]
-• [<a href="https://x.com/x1official">X-Posts von X1</a>] (verifiziert, Stand 13. Juni 2025)
-
- Autor
-• Verfasst von [Dein Name], Blockchain-Enthusiast mit [X Jahren] Erfahrung. Kontakt: [E-Mail/LinkedIn].
-
- Werde Teil des Netzwerks!
- Bild einfügen
-
-Jetzt loslegen!
-Starte noch heute mit dem Guide und sichere dir deine Belohnungen!
-
-
-
-*/
-}

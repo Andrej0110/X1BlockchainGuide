@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/X1BlockchainGuide/", // Angepasst an den Repository-Namen
+  base: "/", // Ändere den Base-Pfad zum Root für die Custom Domain
   plugins: [react(), tailwindcss()],
-  assetsInclude: ["**/*.json"],
+  assetsInclude: ["**/*.webp", "**/*.json"], // Unterstützt sowohl WebP- als auch JSON-Dateien
 });

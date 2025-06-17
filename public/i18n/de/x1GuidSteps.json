@@ -1,7 +1,7 @@
 {
     "introduction": "Herzlichen Glückwunsch, dass du die X1 Blockchain so früh entdeckt hast! Nutze deine Chance, werde Validator und profitiere davon.",
     "advantages": {
-        "title": "Top-5-Vorteile",
+        "title": "Top-5-Vorteile eines Validators:",
         "p01": {
           "title": "Verdiene mit Inflation!",
           "answer": "Sichere dir einen Anteil an der 8 %-Inflation durch deine Votes – starte noch heute!"
@@ -15,7 +15,7 @@
           "answer": "Mit diesem Guide steigen deine Chancen, Leader zu werden, und du verdienst Transaktionsgebühren – erlebe den Nervenkitzel!"
         },
         "p04": {
-          "title": "Greife den Bootstrap-Bonus!",
+          "title": "Schnapp dir den Bootstrap-Bonus!",
           "answer": "Nutze extra Anreize für Frühstarter und werde Teil des X1-Netzwerks."
         },
         "p05": {
@@ -35,12 +35,24 @@
         },
         "p03": {
           "question": "Wie starte ich?",
-          "answer": "Mit drei Schritten bist du bereit:",
-          "steps": ["Server mieten.", "Zugang zum Server.", "Lies diesen Guide und starte durch!"]
+          "answer": "Lies den <telegramLink>Main Guide</telegramLink> und führe folgende Schritte durch:",
+          "steps": ["Server mieten", "Zugang zum Server einrichten", "Validator installieren"]
         },
         "p04": {
           "question": "Warum ist dieser Guide besonders?",
           "answer": "Er nutzt die X1 Console von BlackBeard, mit der die meisten Installationen automatisch erfolgen – Zeit und Aufwand gespart!"
         }
+      },
+      "sources": {
+        "title": "Quellen",
+        "p01": "X1 Webseite",
+        "p02": "X1 Offizielle Dokumentation",
+        "p03": "X1 Validator Telegram-Gruppe",
+        "p04": "X Account X1 Blockchain",
+        "p05": "X Account Jack Levin"
+      },
+      "author": {
+        "title": "Über den Author",
+        "p01": "Verfasst von Andrejⓧ1, einem begeisterten Xenian, der sich seit Tag 1 mit Xen und X1 beschäftigt. Mit einer tiefen Leidenschaft für die X1-Community teile ich mein Wissen, um anderen den Einstieg zu erleichtern. Kontakt Telegram: <telegramLink>X1BlockchainGuide</telegramLink>"
       }
   }

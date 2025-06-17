@@ -11,7 +11,7 @@ i18n
     ns: ["app", "mainGuidSteps", "button", "wslGuidSteps"],
     defaultNS: "app",
     backend: {
-      loadPath: "/X1BlockchainGuide/i18n/{{lng}}/{{ns}}.json",
+      loadPath: "/i18n/{{lng}}/{{ns}}.json", // Anpassung: Entferne /X1BlockchainGuide/
     },
   });
 

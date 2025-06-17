@@ -2,7 +2,7 @@
 
     "introduction": "Congratulations on discovering the X1 blockchain so early on! Seize this opportunity, become a validator, and reap the benefits.",
     "advantages": {
-        "title": "Top-5 Benefits",
+        "title": "Top 5 benefits of a Validator:",
         "p01": {
           "title": "Earn with inflation!",
           "answer": "Secure a share of the 8% inflation through your votes – start today!"
@@ -36,13 +36,25 @@
         },
         "p03": {
           "question": "How do I get started?",
-          "answer": "Three steps and you're ready to go:",
-          "steps": ["Rent a server.", "Access to the server.", "Read this guide and get started!"]
+          "answer": "Read the <telegramLink>Main Guide</telegramLink> and carry out the following steps:",
+          "steps": ["Rent a server", "Set up access to the server", "Install validator"]
         },
         "p04": {
           "question": "What makes this guide special?",
           "answer": "It uses BlackBeard's X1 Console, which automates most installations – saving time and effort!"
         }
+      },
+      "sources": {
+        "title": "Sources",
+        "p01": "X1 Website",
+        "p02": "X1 official documentation",
+        "p03": "X1 Validator Telegram group",
+        "p04": "X account X1 Blockchain and Jack Levin",
+        "p05": "X account Jack Levin"
+      },
+      "author": {
+        "title": "About the author",
+        "p01": "Written by Andrejⓧ1, an avid Xenian who has been involved with Xen and X1 since day 1. With a deep passion for the X1 community, I share my knowledge to help others get started. Contact Telegram: <telegramLink>X1BlockchainGuide</telegramLink>"
       }
     }
   

@@ -15,11 +15,11 @@ const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
     { component: MainGuidStep_4, id: "step4" },
   ];
 
-  // Optional: Schritt-Titel direkt aus Übersetzungen holen (falls getTitle nicht mehr genutzt wird)
+  // Optional: Schritt-Titel direkt aus Übersetzungen holen
   const stepTitles = steps.map((step) => t(`${step.id}.title`));
 
   return (
-    <div className="">
+    <div className="" id="main-content"> {/* Container mit eindeutiger ID */}
       <TableOfContentMainGuid language={language} stepTitles={stepTitles} />
       {steps.map((step) => {
         const StepComponent = step.component;

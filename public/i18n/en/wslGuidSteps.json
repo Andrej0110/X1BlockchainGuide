@@ -2,22 +2,22 @@
   "tableOfContent": "Table of Contents",
   "introduction": "Setting up remote access",
   "p01": "PuTTY allows you to securely connect to remote Linux servers or other devices via SSH (Secure Shell) in order to manage them or execute commands. We will use the programme to set up the X1 Blockchain Validator on the server.",
-  "p02": "To do this, go to the website of <telegramLink>PuTTY</telegramLink>.",
+  "p02": "To do this, go to the <telegramLink>website of PuTTY</telegramLink>.",
   "step1": {
       "title": "Step 1: Download and installation",
       "description": "Download the file and install the programme."
     },
   "step2": {
       "title": "Step 2: Open the programme",
-      "description": "Once you have opened it, it should look like the image below. And that's it, you're done. You now have a programme that allows you to access your new server. Continue with step 3 under Main Guide."
+      "description": "Once you have opened it, it should look like the image below. You now have a programme that allows you to access your new server."
   },
   "step3": {
     "title": "Step 3: Connect to Server and add User",
-    "description": "Open your PuTTY program and enter the IP address of the server there.",
+    "description": "Now enter the IP address of the server in the PuTTY program. If you have a server from InterServer, you will find the IP address under ‘Servers’. A little hint: You can easily paste copied code into the terminal either with a right mouse click or with Shift+Insert.",
     "p01": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
     "p02": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
-    "p03": "1. Use the command:",
-    "p03_01":"adduser yourusername",
+    "p03": "1. To do this, use the command ‘adduser username’ and replace ‘username’ with a user name of your choice.",
+    "p03_01":"adduser username",
     "p04": "2. Next, you must assign a password for the new user.",
     "p05": "Next, you will be asked if you want to store additional information for the new user.",
     "p06": "1. Simply press Enter several times.",
@@ -27,6 +27,6 @@
     "p10": "Confirm with Enter, and then you can either close PuTTY or enter ‘exit’.",
     "p11": "Restart PuTTY, enter your IP address and connect to the server.",
     "p12": "Log in with your new username.",
-    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image."
+    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image. You can proceed to the <telegramLink>Main Guide</telegramLink> next."
   }
 }

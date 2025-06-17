@@ -1,8 +1,10 @@
 {
+  "introduction": "Set up validator",
+  "p01": "Learn how to easily set up an X1 blockchain validator in this simple step-by-step guide—it's so easy that even Homer Simpson managed it!",
   "tableOfContent": "Table of Contents",
   "step1": {
     "title": "Step 1: Rent a Server",
-    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements, you can skip this step. Otherwise, continue with:",
+    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements (see image), you can skip this step. Otherwise, continue with:",
     "buttonText": "Rent Server"
   },
   "step2": {
@@ -13,7 +15,7 @@
   "step3": {
     "title": "Step 3: Start Validation",
     "description": "Congratulations, you are just one step away from setting up your X1 Validator.",
-    "p01": "We will now begin by copying the  <telegramLink>X1 Console from BlackBeard</telegramLink>. A helpful tip: You can paste into the terminal either by right-clicking or by pressing Shift+Insert.",
+    "p01": "We will now begin by copying the {{telegramLink}}.",
     "p02": "1. To do this, enter the following in the terminal (PuTTY):",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Once the copy has been created, you can install the X1 Console on your server using the following command:",
@@ -26,9 +28,9 @@
     "p11": "Occasionally, a pink screen will appear. In this case, simply press the Enter key.",
     "p12": "Now pay close attention!",
     "p13": "1. If you lose access to the server, you will also lose access to your wallet. To avoid this, make a note of the seed phrase for each individual wallet – four in total. If, like me, you only see two wallets in your terminal window, simply scroll up. You do not need to write down the “pubkey” address manually, as you can find it in the X1 Console at any time.",
-    "p14": "2. Once you have noted down your seed phrases for the respective wallets, your “id” wallet needs XNT. To do this, go to the <telegramLink>Faucet website<telegramLink>.",
-    "p15": "If the faucet is empty, you still have the option of asking the <telegramLink>Validator Telegram Group</telegramLink> to send you XNT. Simply write your pubkey/address from the ID wallet in the chat and ask for XNT.",
-    "p16": "Alternatively, you can also contact me directly in the Telegram group <telegramLink>X1BlockchainGuide</telegramLink>.",
+    "p14": "2. Once you have noted down your seed phrases for the respective wallets, your “id” wallet needs XNT. To do this, go to the {{faucetLink}}.",
+    "p15": "If the faucet is empty, you still have the option of asking the {{telegramGroupLink}} to send you XNT. Simply write your pubkey/address from the ID wallet in the chat and ask for XNT, or go to the {{faucetLink}}.",
+    "p16": "Alternatively, you can also contact me directly in the Telegram group {{telegramGuideLink}}.",
     "p17": "Press the Enter key and continue with the installation. You can also complete the installation without XNT.",
     "p18": "Once the installation is complete, we need to make the PATH changes. To do this, we exit the menu shown and the X1 Console.",
     "p19": "1. Next, enter the following code in the terminal:",
@@ -36,7 +38,13 @@
     "p21": "2. We can now reopen the X1 Console with the following command in the terminal:",
     "p22": "./x1console.sh",
     "p23": "If you haven't skipped the step of obtaining XNT, your status should be “Active”.",
-    "p24": "Congratulations. You have successfully set up your own X1 blockchain validator."
+    "p24": "Congratulations. You have successfully set up your own X1 blockchain validator.",
+    "links": {
+      "telegramLink": "X1 Console from BlackBeard",
+      "faucetLink": "Faucet Website",
+      "telegramGroupLink": "Validator Telegram Group",
+      "telegramGuideLink": "X1BlockchainGuide"
+    }
   },
   "step4": {
     "title": "Step 4: Delinquent status",

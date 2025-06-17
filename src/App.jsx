@@ -30,7 +30,6 @@ function App() {
           {t("logo_title", { ns: "app" })}
         </h1>
         <div className="ml-4">
-          <h2 className="mb-2">{t("description", { ns: "app" })}</h2>
           <LanguageButtons language={language} setLanguage={setLanguage} />
         </div>
 

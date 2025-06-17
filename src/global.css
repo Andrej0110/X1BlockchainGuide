@@ -1,10 +1,27 @@
 .img {
   height: auto;
-  border-radius: 0.375rem; /* rounded-md = 0.375rem */
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* shadow-sm approximation */
+  border-radius: 0.375rem; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
   border-style: solid;
-  border-width: 2px; /* border-2 = 2px */
-  /* Note: border-color is not specified in Tailwind's border-2, so you'll need to add it (e.g., border-color: black;) */
-  border-color: black; /* Default color, adjust as needed */
+  border-width: 2px;
+  border-color: black;
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .img {
+    max-width: 100%; /* Sicherstellen, dass es nicht über den Container hinausgeht */
+  }
+}
+
+.link {
+  color: #2563eb; /* text-blue-600 */
+  transition-property: color, text-decoration;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.link:hover {
+  color: #1e40af; /* hover:text-blue-800 */
+  text-decoration: underline; /* hover:underline */
 }

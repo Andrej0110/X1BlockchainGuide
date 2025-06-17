@@ -6,6 +6,8 @@ const MainGuidStep_1 = ({ id, activeTab, setActiveTab }) => {
   const { t } = useTranslation("mainGuidSteps");
   return (
     <div id={id} className="">
+      <h2 className="text-2xl font-semibold ml-4">{t("introduction")}</h2>
+      <p className="ml-4">{t("p01")}</p>
       <GuidStepTemplate
         id={id}
         title={t("step1.title")}
