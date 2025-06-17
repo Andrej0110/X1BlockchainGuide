@@ -1,10 +1,10 @@
 { 
   "introduction": "Set up validator",
-  "p01": "Learn how to easily set up an X1 blockchain validator in this simple step-by-step guide—it's so easy that even Homer Simpson managed to do it between naps and donuts!",
+  "p01": "Learn how to easily set up an X1 blockchain validator in this simple step-by-step guide—it's so easy that even Homer Simpson managed it!",
   "tableOfContent": "Table of Contents",
   "step1": {
     "title": "Step 1: Rent a Server",
-    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements, you can skip this step. Otherwise, continue with:",
+    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements (see image), you can skip this step. Otherwise, continue with:",
     "buttonText": "Rent Server"
   },
   "step2": {
@@ -15,7 +15,7 @@
   "step3": {
     "title": "Step 3: Start Validation",
     "description": "Congratulations, you are just one step away from setting up your X1 Validator.",
-    "p01": "We will now begin by copying the  <telegramLink>X1 Console from BlackBeard</telegramLink>. A helpful tip: You can paste into the terminal either by right-clicking or by pressing Shift+Insert.",
+    "p01": "We will now begin by copying the  <telegramLink>X1 Console from BlackBeard</telegramLink>.",
     "p02": "1. To do this, enter the following in the terminal (PuTTY):",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Once the copy has been created, you can install the X1 Console on your server using the following command:",
