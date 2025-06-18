@@ -9,7 +9,7 @@ const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
     setActiveTab("main");
     // Warte kurz, bis der neue Abschnitt gerendert ist, dann scrollen
     setTimeout(() => {
-      const mainSection = document.getElementById("main-content");
+      const mainSection = document.getElementById("main");
       if (mainSection) {
         mainSection.scrollIntoView({ behavior: "smooth", block: "start" });
       } else {
@@ -19,7 +19,9 @@ const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
   };
 
   return (
-    <div className="ml-4" id="faq"> {/* Anker für diesen Abschnitt */}
+    <div className="ml-4" id="faq">
+      {" "}
+      {/* Anker für diesen Abschnitt */}
       <h2 className="mt-6 mb-4 text-2xl font-bold">{t("faq.title")}</h2>
       <ul className="ml-6 space-y-2">
         <li>
@@ -41,9 +43,7 @@ const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
                     href="#main" // Verweist auf den Main Guide Abschnitt
                     onClick={handleButtonClickMain}
                     className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                  >
-                    Main Guide
-                  </a>
+                  ></a>
                 ),
               }}
             />

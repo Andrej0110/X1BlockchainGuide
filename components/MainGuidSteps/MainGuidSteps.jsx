@@ -19,7 +19,9 @@ const MainGuidSteps = ({ language, activeTab, setActiveTab }) => {
   const stepTitles = steps.map((step) => t(`${step.id}.title`));
 
   return (
-    <div className="" id="main-content"> {/* Container mit eindeutiger ID */}
+    <div className="" id="main">
+      {" "}
+      {/* Container mit eindeutiger ID */}
       <TableOfContentMainGuid language={language} stepTitles={stepTitles} />
       {steps.map((step) => {
         const StepComponent = step.component;

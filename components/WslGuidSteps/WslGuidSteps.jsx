@@ -16,7 +16,7 @@ const WslGuidSteps = ({ language, activeTab, setActiveTab }) => {
   const stepTitles = steps.map((step) => t(`${step.id}.title`));
 
   return (
-    <div className="">
+    <div className="" id="wsl">
       <TableOfContentWslGuid language={language} stepTitles={stepTitles} />
       {steps.map((step) => {
         const StepComponent = step.component;
