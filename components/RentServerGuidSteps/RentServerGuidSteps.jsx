@@ -24,7 +24,7 @@ const RentServerGuidSteps = ({ language, activeTab, setActiveTab }) => {
   const stepTitles = steps.map((step) => t(`${step.id}.title`));
 
   return (
-    <div className="">
+    <div className="" id="rent">
       <TableOfContentRentGuid language={language} stepTitles={stepTitles} />
       {steps.map((step) => {
         const StepComponent = step.component;
