@@ -10,7 +10,7 @@
   "step2": {
     "title": "Schritt 2: Mit Server verbinden",
     "description": "Verbinde dich mit deinem Server. Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
-    "buttonText": "Ubuntu (PuTTY)"
+    "buttonText": "<telegramLink>Ubuntu (PuTTY)</telegramLink>"
   },
   "step3": {
     "title": "Schritt 3: Server einrichten",
