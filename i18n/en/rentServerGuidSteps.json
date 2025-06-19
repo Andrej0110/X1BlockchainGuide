@@ -29,7 +29,7 @@
         "title": "Step 4: Check your selection",
         "description": "Check your selection and then click ‘CONTINUE’.",
         "p01": "Testnet",
-        "po2": "Mainnet"
+        "p02": "Mainnet"
     },
     "step5": {
         "title": "Step 5: Create an account and log in",
