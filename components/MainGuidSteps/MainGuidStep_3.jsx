@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import GuidStepTemplate from "../GuidStepTemplate/GuidStepTemplate.jsx";
 import Validator01 from "./Pictures/Validator/validator_01.webp";
 import Validator02 from "./Pictures/Validator/validator_02.webp";
@@ -25,30 +25,30 @@ const MainGuidStep_3 = ({ id }) => {
 
       <div className="ml-4 mr-4">
         <p>{t("step3.description")}</p>
-        <p>
-          {t("step3.p01", {
+    
+        <Trans
+          i18nKey="mainGuidSteps:step3.p01"
+          components={{
             telegramLink: (
               <a
                 href="https://github.com/BlackBeard085/x1console"
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {t("step3.links.telegramLink")}
-              </a>
+              ></a>
             ),
-          })}
-        </p>
+          }}
+        />
 
         <p>{t("step3.p02")}</p>
         <CopyCodeButton command={t("step3.p03")} />
         <p>{t("step3.p04")}</p>
         <CopyCodeButton command={t("step3.p05")} />
         <p>{t("step3.p06")}</p>
-        <img src={Validator01} alt="Validator 1" className="w-[800px] img" />
+        <img src={Validator01} alt="Validator 1" className="w-[900px] img" />
         <p>{t("step3.p07")}</p>
         <p>{t("step3.p08")}</p>
-        <img src={Validator02} alt="Validator 2" className="w-[800px] img" />
+        <img src={Validator02} alt="Validator 2" className="w-[900px] img" />
         <p>{t("step3.p09")}</p>
         <p>{t("step3.p10")}</p>
         <img src={Validator03} alt="Validator 3" className="w-[600px] img" />
@@ -61,58 +61,56 @@ const MainGuidStep_3 = ({ id }) => {
         <img src={Validator09} alt="Validator 9" className="w-[900px] img" />
         <p>{t("step3.p12")}</p>
         <p>{t("step3.p13")}</p>
+
         <p>
-          {t("step3.p14", {
-            faucetLink: (
+        <Trans
+          i18nKey="mainGuidSteps:step3.p14"
+          components={{
+            telegramLink: (
               <a
-                href="https://faucet.testnet.x1.xyz/"
+                href="https://faucet.x1.wiki/"
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {t("step3.links.faucetLink")}
-              </a>
+              ></a>
             ),
-          })}
-        </p>
+          }}
+        />
+      </p>
+
         <p>
-          {t("step3.p15", {
-            telegramGroupLink: (
+         <Trans
+          i18nKey="mainGuidSteps:step3.p15"
+          components={{
+            telegramLink: (
               <a
                 href="https://t.me/+yT0VAcNPFqM3OGQ0"
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {t("step3.links.telegramGroupLink")}
-              </a>
+              ></a>
             ),
-            faucetLink: (
-              <a
-                href="https://faucet.testnet.x1.xyz/"
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t("step3.links.faucetLink")}
-              </a>
-            ),
-          })}
-        </p>
+          }}
+        />
+      </p>
+
         <p>
-          {t("step3.p16", {
-            telegramGuideLink: (
+         <Trans
+          i18nKey="mainGuidSteps:step3.p16"
+          components={{
+            telegramLink: (
               <a
                 href="https://t.me/X1BlockchainGuide"
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {t("step3.links.telegramGuideLink")}
-              </a>
+              ></a>
             ),
-          })}
-        </p>
+          }}
+        />
+      </p>
+
+
         <p>{t("step3.p17")}</p>
         <img src={Validator10} alt="Validator 10" className="mt-4 w-[900px] img" />
         <p>{t("step3.p18")}</p>

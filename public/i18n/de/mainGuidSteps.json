@@ -10,12 +10,12 @@
   "step2": {
     "title": "Schritt 2: Mit Server verbinden",
     "description": "Verbinde dich mit deinem Server. Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
-    "buttonText": "Ubuntu (PuTTY)"
+    "buttonText": "<telegramLink>Ubuntu (PuTTY)</telegramLink>"
   },
   "step3": {
     "title": "Schritt 3: Server einrichten",
     "description": "Herzlichen Glückwunsch, dir fehlt nur noch der letzte Schritt um deinen X1 Validator einzurichten.",
-    "p01": "Wir fangen nun damit an, die {{telegramLink}} zu kopieren.",
+    "p01": "Wir fangen nun damit an, die <telegramLink>X1 Console von BlackBeard</telegramLink> zu kopieren.",
     "p02": "1. Gib hierzu im Terminal (PuTTY) Folgendes ein:",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Sobald die Kopie erstellt ist, kannst du die X1 Console mit dem folgenden Befehl auf deinem Server installieren:",
@@ -28,9 +28,9 @@
     "p11": "Hin und wieder erscheint ein rosafarbener Bildschirm. In so einem Fall drücke einfach die Taste Enter.",
     "p12": "Jetzt bitte sehr gut aufpassen!",
     "p13": "1. Solltest du mal den Zugang zum Server verlieren, dann verlierst du auch den Zugang zu deiner Wallet. Um das zu vermeiden, notiere dir die Seed Phrase jeder einzelnen Wallet – in Summe 4 Stück. Solltest du in deinem Terminalfenster, wie ich, nur 2 Wallets sehen, scrolle dann einfach hoch. Die Adresse 'pubkey' musst du nicht händisch abschreiben, weil du diese in der X1 Console jederzeit wiederfinden kannst.",
-    "p14": "2. Sobald du dir deine Seed-Phrasen zu den jeweiligen Wallets notiert hast, benötigt deine 'id' Wallet XNT. Gehe hierzu auf die {{faucetLink}}.",
-    "p15": "Sollte das Faucet leer sein, gibt es noch die Option, in der {{telegramGroupLink}} darum zu bitten, dass dir XNT zugesendet wird. Schreibe hierzu einfach in den Chat deine Pubkey/Adresse von der ID Wallet und bitte um XNT, oder gehe auf die {{faucetLink}}.",
-    "p16": "Alternativ kannst du mich auch direkt kontaktieren in der Telegram-Gruppe {{telegramGuideLink}}.",
+    "p14": "2. Sobald du dir deine Seed-Phrasen zu den jeweiligen Wallets notiert hast, benötigt deine 'id' Wallet XNT. Gehe hierzu auf die <telegramLink>Faucet Website</telegramLink>.",
+    "p15": "Sollte das Faucet leer sein, gibt es noch die Option, in der <telegramLink>Validator Telegram Gruppe</telegramLink> darum zu bitten, dass dir XNT zugesendet wird. Schreibe hierzu einfach in den Chat deine Pubkey/Adresse von der ID Wallet und bitte um XNT.",
+    "p16": "Alternativ kannst du mich auch direkt kontaktieren in der Telegram-Gruppe <telegramLink>X1BlockchainGuide</telegramLink>.",
     "p17": "Drücke die Taste Enter und fahre mit der Installation fort. Die Installation kannst du auch ohne XNT abschließen.",
     "p18": "Sobald die Installation abgeschlossen ist, müssen wir die PATH-Änderungen durchführen. Hierzu beenden wir das dargestellte Menü und die X1 Console.",
     "p19": "1. Anschließend geben wir folgenden Code im Terminal ein:",
@@ -38,13 +38,7 @@
     "p21": "2. Wir können nun die X1 Console wieder mit dem folgenden Befehl im Terminal öffnen:",
     "p22": "./x1console.sh",
     "p23": "Wenn du den Schritt nicht übersprungen hast, dir XNT zu besorgen, dann sollte bei dir der Status 'Active' sein.",
-    "p24": "Herzlichen Glückwunsch. Du hast es geschafft, dir deinen eigenen X1 Blockchain Validator einzurichten.",
-    "links": {
-      "telegramLink": "X1 Console von BlackBeard",
-      "faucetLink": "Faucet-Webseite",
-      "telegramGroupLink": "Validator Telegram Gruppe",
-      "telegramGuideLink": "X1BlockchainGuide"
-    }
+    "p24": "Herzlichen Glückwunsch. Du hast es geschafft, dir deinen eigenen X1 Blockchain Validator einzurichten."
   },
   "step4": {
     "title": "Schritt 4: Status Delinquent",

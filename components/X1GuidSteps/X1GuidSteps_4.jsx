@@ -13,7 +13,7 @@ const X1GuidStep_4 = () => {
             components={{
               telegramLink: (
                 <a
-                  href="t.me/X1BlockchainGuide"
+                  href="https://x.com/DevAndrej01"
                   className="link"
                   target="_blank"
                   rel="noopener noreferrer"

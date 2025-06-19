@@ -1,9 +1,16 @@
+CNAME einrichten
+CNAME Datei anlegen unter Public ohne Endung und folgendes einfügen: www.x1blockchainguide.com
+
+prüfen, warum die Webseite https://www.x1blockchainguide.com/ValidatorGuide nicht funktioniert
+
+
+Sicherung package.json
 {
   "name": "x1validatorguide",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.x1blockchainguide.com",
+  "homepage": "https://github.com/Andrej0110/X1BlockchainGuide",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

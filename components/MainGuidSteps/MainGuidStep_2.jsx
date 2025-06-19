@@ -25,9 +25,6 @@ const MainGuidStep_2 = ({ id, activeTab, setActiveTab }) => {
         id={id}
         title={t("step2.title")}
         description={t("step2.description")}
-        buttonText={t("step2.buttonText")}
-        image={PuttyAddUser01}
-        imageClassName="w-[600px] img"
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         tabValue="wsl"
@@ -48,6 +45,7 @@ const MainGuidStep_2 = ({ id, activeTab, setActiveTab }) => {
             ),
           }}
         />
+        <img src={PuttyAddUser01} className="w-[600px] img" />
       </div>
     </div>
   );

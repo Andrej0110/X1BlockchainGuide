@@ -5,11 +5,32 @@ import InterServer08 from "./Pictures/InterServer08.webp";
 const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
   const { t } = useTranslation("rentServerGuidSteps");
 
-  const handleButtonClickWsl = () => {
+  const handleButtonClickWsl = (e) => {
+    e.preventDefault(); // Verhindert das Standard-Verhalten des Links
     setActiveTab("wsl");
+    // Warte kurz, bis der neue Abschnitt gerendert ist, dann scrollen
+    setTimeout(() => {
+      const wslSection = document.getElementById("wsl");
+      if (wslSection) {
+        wslSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 0);
   };
-  const handleButtonClickMain = () => {
+
+  const handleButtonClickMain = (e) => {
+    e.preventDefault(); // Verhindert das Standard-Verhalten des Links
     setActiveTab("main");
+    // Warte kurz, bis der neue Abschnitt gerendert ist, dann scrollen
+    setTimeout(() => {
+      const mainSection = document.getElementById("main");
+      if (mainSection) {
+        mainSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 0);
   };
 
   return (
@@ -26,7 +47,8 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
           i18nKey="rentServerGuidSteps:step7:p01"
           components={{
             telegramLink: (
-              <a
+              <a 
+                href="#wsl"
                 onClick={handleButtonClickWsl}
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
               />
@@ -41,6 +63,7 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
           components={{
             telegramLink: (
               <a
+                href="#main"
                 onClick={handleButtonClickMain}
                 className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
               />

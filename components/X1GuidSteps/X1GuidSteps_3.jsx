@@ -18,6 +18,11 @@ const X1GuidStep_3 = () => {
       {t("sources.p02")}
     </a>
   </li>
+   <li className="mt-1 text-base leading-relaxed">
+    <a href="https://github.com/BlackBeard085/x1console" className="link" target="_blank" rel="noopener noreferrer">
+      {t("sources.p06")}
+    </a>
+  </li>
   <li className="mt-1 text-base leading-relaxed">
     <a href="https://t.me/+yT0VAcNPFqM3OGQ0" className="link" target="_blank" rel="noopener noreferrer">
       {t("sources.p03")}
@@ -31,6 +36,12 @@ const X1GuidStep_3 = () => {
   <li className="mt-1 text-base leading-relaxed">
     <a href="https://x.com/mrJackLevin" className="link" target="_blank" rel="noopener noreferrer">
       {t("sources.p05")}
+    </a>
+  </li>
+ 
+  <li className="mt-1 text-base leading-relaxed">
+    <a href="https://x.com/BlackBeard_X1" className="link" target="_blank" rel="noopener noreferrer">
+      {t("sources.p07")}
     </a>
   </li>
 </ul>

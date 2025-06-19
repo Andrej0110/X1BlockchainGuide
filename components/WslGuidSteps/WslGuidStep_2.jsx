@@ -12,7 +12,7 @@ const WslGuidStep_2 = ({ id }) => {
         title={t("step2.title")}
         description={t("step2.description")}
         image={Putty02}
-        imageClassName="mt-4 w-[700px] img"
+        imageClassName="mt-4 w-[600px] img"
       />
     </div>
   );
