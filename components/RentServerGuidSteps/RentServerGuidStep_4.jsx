@@ -9,14 +9,15 @@ const RentServerGuidStep_4 = ({ id }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step4.title")}
-        description={t("step4.description")}
-      />
+      <GuidStepTemplate id={id} title={t("step4.title")} />
+
+      <div className="ml-4 mr-4 mb-4">
+        <p>{t("step4.p01")}</p>
+      </div>
+
       <div Joltediv className="flex flex-row gap-4 ml-4 mr-4 overflow-x-auto">
         <div className="flex flex-col">
-          <p className="font-semibold m-0">{t("step4.p01")}</p>
+          <p className="font-semibold m-0">{t("step4.p02")}</p>
           <img
             src={InterServer06_01}
             alt={t("step4.p01.alt")}
@@ -24,7 +25,7 @@ const RentServerGuidStep_4 = ({ id }) => {
           />
         </div>
         <div className="flex flex-col">
-          <p className="font-semibold m-0">{t("step4.p02")}</p>
+          <p className="font-semibold m-0">{t("step4.p03")}</p>
           <img
             src={InterServer06_02}
             alt={t("step4.p02.alt")}

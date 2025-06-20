@@ -10,23 +10,26 @@ const RentServerGuidStep_3 = ({ id }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step3.title")}
-        description={t("step3.description")}
-
-      />
+      <GuidStepTemplate id={id} title={t("step3.title")} />
 
       <div className="image-container ml-4 mr-4">
-        <p>{t("step3.headline")}</p>
-        <img src={InterServer03} alt={`Test1`} className="w-[700px] img" />
-        <p>{t("step3.headline_02")}</p>
-        <p>{t("step3.description_02")}</p>
-        <img src={InterServer03_01} alt={`Test1`} className="w-[700px] img" />
-        <p>{t("step3.headline_03")}</p>
-        <p>{t("step3.description_03")}</p>
-        <p>{t("step3.headline_04")}</p>
+        <p className="font-semibold">{t("step3.headline01")}</p>
         <p>{t("step3.p01")}</p>
+        <img src={InterServer03} alt={`Test1`} className="w-[700px] img mb-4" />
+
+        <p className="font-semibold">{t("step3.headline02")}</p>
+        <p>{t("step3.p02")}</p>
+        <img
+          src={InterServer03_01}
+          alt={`Test1`}
+          className="w-[700px] img mb-4"
+        />
+
+        <p className="font-semibold">{t("step3.headline03")}</p>
+        <p>{t("step3.p03")}</p>
+
+        <p className="font-semibold mt-4">{t("step3.headline04")}</p>
+        <p>{t("step3.p04")}</p>
         <img src={InterServer04} alt={`Test1`} className="w-[700px] img" />
         <img src={InterServer05} alt={`Test2`} className="w-[700px] img" />
       </div>

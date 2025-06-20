@@ -35,16 +35,16 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step7.title")}
-        description={t("step7.description")}
-        image={InterServer08}
-      />
+      <GuidStepTemplate id={id} title={t("step7.title")} />
+
+      <div className="ml-4 mr-4">
+        <p>{t("step7.p01")}</p>
+        <img src={InterServer08} className="w-[900px] img mb-4" />
+      </div>
 
       <p className="ml-4">
         <Trans
-          i18nKey="rentServerGuidSteps:step7:p01"
+          i18nKey="rentServerGuidSteps:step7:p02"
           components={{
             telegramLink: (
               <a href="#wsl" onClick={handleButtonClickWsl} className="link" />
@@ -55,7 +55,7 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
 
       <p className="ml-4">
         <Trans
-          i18nKey="rentServerGuidSteps:step7:p02"
+          i18nKey="rentServerGuidSteps:step7:p03"
           components={{
             telegramLink: (
               <a

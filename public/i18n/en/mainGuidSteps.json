@@ -12,8 +12,7 @@
   },
   "step3": {
     "title": "Step 3: Start Validation",
-    "description": "Congratulations, you are just one step away from setting up your X1 Validator.",
-    "p01": "We will now begin by copying the <telegramLink>X1 Console from BlackBeard</telegramLink>.",
+    "p01": "Congratulations, you are just one step away from setting up your X1 Validator. We will now begin by copying the <telegramLink>X1 Console from BlackBeard</telegramLink>.",
     "p02": "1. To do this, enter the following in the terminal (PuTTY):",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Once the copy has been created, you can install the X1 Console on your server using the following command:",
@@ -28,7 +27,7 @@
     "p13": "1. If you lose access to the server, you will also lose access to your wallet. To avoid this, make a note of the seed phrase for each individual wallet – four in total. If, like me, you only see two wallets in your terminal window, simply scroll up. You do not need to write down the “pubkey” address manually, as you can find it in the X1 Console at any time.",
     "p14": "2. Once you have noted down your seed phrases for the respective wallets, your “id” wallet needs XNT. To do this, go to the <telegramLink>Faucet Website</telegramLink>.",
     "p15": "If the faucet is empty, you still have the option of asking the <telegramLink>Validator Telegram Group</telegramLink> to send you XNT. Simply write your pubkey/address from the ID wallet in the chat and ask for XNT.",
-    "p16": "Alternatively, you can also contact me directly in the Telegram group <telegramLink>X1BlockchainGuide</telegramLink>.",
+    "p16": "Alternatively, you can also contact me directly in the Telegram group <telegramLink>X1BlockchainGuide</telegramLink>. Press the Enter key and continue with the installation. You can also complete the installation without XNT.",
     "p17": "Press the Enter key and continue with the installation. You can also complete the installation without XNT.",
     "p18": "Once the installation is complete, we need to make the PATH changes. To do this, we exit the menu shown and the X1 Console.",
     "p19": "1. Next, enter the following code in the terminal:",
@@ -40,11 +39,8 @@
   },
   "step4": {
     "title": "Step 4: Delinquent status",
-    "description": "If you skipped the step with the XNT, take a look at the next image.",
-    "p01": "If your status is “Delinquent”, your ID Wallet must have at least 1 XNT. You can check whether you have already received XNT from the faucet or a user under “3. Check Balance”.",
-    "p02": "1. Once you have access to XNT, select “Health Check and Start Validator”. After the health check, your validator should have the status “Active”.",
-    "p03": "If you close the terminal, you can access the X1 Console after logging in to your server with the following command:",
-    "p04": "cd x1console && ./x1console.sh",
-    "p05": "Did this guide help you? Support further development with a small donation. Every amount helps, thank you!"
+    "p01": "If you skipped the step with the XNT, take a look at the next image. If your status is “Delinquent”, your ID Wallet must have at least 1 XNT. You can check whether you have already received XNT from the faucet or a user under “3. Check Balance”. Once you have access to XNT, select '1. Health Check and Start Validator'. After the health check, your validator should have the status “Active”. If you close the terminal, you can access the X1 Console after logging in to your server with the following command:",
+    "p02": "cd x1console && ./x1console.sh",
+    "p03": "Did this guide help you? Support further development with a small donation. Every amount helps, thank you!"
   }
 }

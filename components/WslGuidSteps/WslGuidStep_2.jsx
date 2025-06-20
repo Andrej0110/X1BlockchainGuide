@@ -7,13 +7,12 @@ const WslGuidStep_2 = ({ id }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step2.title")}
-        description={t("step2.description")}
-        image={Putty02}
-        imageClassName="mt-4 w-[600px] img"
-      />
+      <GuidStepTemplate id={id} title={t("step2.title")} />
+
+      <div className="ml-4 mr-4">
+        <p>{t("step2.p01")}</p>
+        <img src={Putty02} className="w-[600px] img mb-2" />
+      </div>
     </div>
   );
 };

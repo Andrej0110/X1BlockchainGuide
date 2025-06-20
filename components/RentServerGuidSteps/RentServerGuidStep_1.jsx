@@ -43,12 +43,11 @@ const RentServerGuidStep_1 = ({ id }) => {
           />
         </p>
       </div>
-      <GuidStepTemplate
-        id={id}
-        title={t("step1.title")}
-        description={t("step1.description")}
-        image={InterServer01}
-      />
+      <GuidStepTemplate id={id} title={t("step1.title")} />
+      <div className="ml-4 mr-4">
+        <p>{t("step1.p01")}</p>
+        <img src={InterServer01} className="w-[900px] img mb-2" />
+      </div>
     </div>
   );
 };

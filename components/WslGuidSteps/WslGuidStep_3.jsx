@@ -26,39 +26,37 @@ const WslGuidStep_3 = ({ id, activeTab, setActiveTab }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step3.title")}
-        description={t("step3.description")}
-        image={PuttyAddUser01}
-        imageClassName="w-[600px] img"
-      />
+      <GuidStepTemplate id={id} title={t("step3.title")} />
+
       <div className="ml-4 mr-4">
         <p>{t("step3.p01")}</p>
-        <img src={PuttyAddUser02} className="w-[600px] img" />
+        <img src={PuttyAddUser01} className="w-[600px] img mb-4" />
+      </div>
+
+      <div className="ml-4 mr-4">
         <p>{t("step3.p02")}</p>
+        <img src={PuttyAddUser02} className="w-[600px] img mb-4" />
+        <p>{t("step3.p03")}</p>
 
         <div className="mb-4 mt-2">
-          <p>{t("step3.p03")}</p>
-          <CopyCodeButton command={t("step3.p03_01")} />
+          <p>{t("step3.p04")}</p>
+          <CopyCodeButton command={t("step3.p05")} />
         </div>
 
-        <p>{t("step3.p04")}</p>
-        <img src={PuttyAddUser03} className="w-[600px] img" />
-        <p>{t("step3.p05")}</p>
-        <p className="mt-2">{t("step3.p06")}</p>
-        <p className="mt-2">{t("step3.p07")}</p>
+        <p>{t("step3.p06")}</p>
+        <img src={PuttyAddUser03} className="w-[600px] img mb-4" />
+        <p>{t("step3.p07")}</p>
         <p className="mt-2">{t("step3.p08")}</p>
+        <p className="mt-2">{t("step3.p09")}</p>
+        <p className="mt-2">{t("step3.p10")}</p>
 
         <div className="flex items-center mb-4 mt-2">
           <p className="mr-2">3.</p>
-          <CopyCodeButton command={t("step3.p09")} />
+          <CopyCodeButton command={t("step3.p11")} />
         </div>
 
-        <p>{t("step3.p10")}</p>
-        <img src={PuttyAddUser05} className="w-[600px] img" />
-        <p>{t("step3.p11")}</p>
         <p>{t("step3.p12")}</p>
+        <img src={PuttyAddUser05} className="w-[600px] img mb-4" />
 
         <p>
           <Trans

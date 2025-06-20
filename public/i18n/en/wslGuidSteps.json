@@ -5,28 +5,26 @@
   "p02": "To do this, go to the <telegramLink>website of PuTTY</telegramLink>.",
   "step1": {
       "title": "Step 1: Download and installation",
-      "description": "Download the file and install the programme."
+      "p01": "Download the file and install the programme."
     },
   "step2": {
       "title": "Step 2: Open the programme",
-      "description": "Once you have opened it, it should look like the image below. You now have a programme that allows you to access your new server."
+      "p01": "Once you have opened it, it should look like the image below. You now have a programme that allows you to access your new server."
   },
   "step3": {
     "title": "Step 3: Connect to Server and add User",
-    "description": "Now enter the IP address of the server in the PuTTY program. If you have a server from InterServer, you will find the IP address under ‘Servers’. A little hint: You can easily paste copied code into the terminal either with a right mouse click or with Shift+Insert.",
-    "p01": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
-    "p02": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
-    "p03": "1. To do this, use the command ‘adduser username’ and replace ‘username’ with a user name of your choice.",
-    "p03_01":"adduser username",
-    "p04": "2. Next, you must assign a password for the new user.",
-    "p05": "Next, you will be asked if you want to store additional information for the new user.",
-    "p06": "1. Simply press Enter several times.",
-    "p07": "2. Confirm your entry with “Y”.",
-    "p08": "In the next step, our new user will be granted administrative rights.",
-    "p09": "sudo usermod -aG sudo yourusername",
-    "p10": "Confirm with Enter, and then you can either close PuTTY or enter ‘exit’.",
-    "p11": "Restart PuTTY, enter your IP address and connect to the server.",
-    "p12": "Log in with your new username.",
-    "p13": "You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image. You can proceed to the <telegramLink>Main Guide</telegramLink> next."
+    "p01": "Now enter the IP address of the server in the PuTTY program. If you have a server from InterServer, you will find the IP address under ‘Servers’. A little hint: You can easily paste copied code into the terminal either with a right mouse click or with Shift+Insert.",
+    "p02": "First, we need to log in with the username “root” in order to create a new username. If you followed the step-by-step instructions under “Rent a server”, enter the password you set with InterServer. Please note that when entering the password in PuTTY, it will not be displayed! Type in the password and press Enter.",
+    "p03": "Once we have logged into the server, we create a new user. In this example, I am creating the user “test”. We will set up the validator under this user name in step 4.",
+    "p04": "1. To do this, use the command ‘adduser username’ and replace ‘username’ with a user name of your choice.",
+    "p05":"adduser username",
+    "p06": "2. Next, you must assign a password for the new user.",
+    "p07": "Next, you will be asked if you want to store additional information for the new user.",
+    "p08": "1. Simply press Enter several times.",
+    "p09": "2. Confirm your entry with “Y”.",
+    "p10": "In the next step, our new user will be granted administrative rights.",
+    "p11": "sudo usermod -aG sudo username",
+    "p12": "Confirm with Enter, and then you can either close PuTTY or enter ‘exit’.",
+    "p13": "Restart PuTTY, enter your IP address and connect to the server. Log in with your new username. You will now see that you are logged in under the new user name. This is shown by the green arrow at the bottom of the image. You can proceed to the <telegramLink>Main Guide</telegramLink> next."
   }
 }

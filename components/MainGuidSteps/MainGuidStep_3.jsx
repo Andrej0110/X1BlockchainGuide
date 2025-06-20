@@ -24,8 +24,6 @@ const MainGuidStep_3 = ({ id }) => {
       <GuidStepTemplate id={id} title={t("step3.title")} />
 
       <div className="ml-4 mr-4">
-        <p>{t("step3.description")}</p>
-
         <p>
           <Trans
             i18nKey="mainGuidSteps:step3.p01"
@@ -53,24 +51,40 @@ const MainGuidStep_3 = ({ id }) => {
         </div>
 
         <p>{t("step3.p06")}</p>
-        <img src={Validator01} alt="Validator 1" className="w-[900px] img" />
+        <img
+          src={Validator01}
+          alt="Validator 1"
+          className="w-[900px] img mb-4"
+        />
         <p>{t("step3.p07")}</p>
         <p>{t("step3.p08")}</p>
-        <img src={Validator02} alt="Validator 2" className="w-[900px] img" />
+        <img
+          src={Validator02}
+          alt="Validator 2"
+          className="w-[900px] img mb-4"
+        />
         <p>{t("step3.p09")}</p>
         <p>{t("step3.p10")}</p>
         <img src={Validator03} alt="Validator 3" className="w-[600px] img" />
-        <img src={Validator04} alt="Validator 4" className="w-[900px] img" />
+        <img
+          src={Validator04}
+          alt="Validator 4"
+          className="w-[900px] img mb-4"
+        />
         <p>{t("step3.p11")}</p>
         <img src={Validator05} alt="Validator 5" className="w-[600px] img" />
         <img src={Validator06} alt="Validator 6" className="w-[900px] img" />
         <img src={Validator07} alt="Validator 7" className="w-[900px] img" />
         <img src={Validator08} alt="Validator 8" className="w-[900px] img" />
-        <img src={Validator09} alt="Validator 9" className="w-[900px] img" />
-        <p>{t("step3.p12")}</p>
-        <p>{t("step3.p13")}</p>
+        <img
+          src={Validator09}
+          alt="Validator 9"
+          className="w-[900px] img mb-4"
+        />
+        <p className="mb-2 font-semibold">{t("step3.p12")}</p>
+        <p className="mb-2">{t("step3.p13")}</p>
 
-        <p>
+        <p className="mb-2">
           <Trans
             i18nKey="mainGuidSteps:step3.p14"
             components={{
@@ -118,15 +132,18 @@ const MainGuidStep_3 = ({ id }) => {
           />
         </p>
 
-        <p>{t("step3.p17")}</p>
         <img
           src={Validator10}
           alt="Validator 10"
-          className="mt-4 w-[900px] img"
+          className="mt-4 w-[900px] img  mb-4"
         />
         <p>{t("step3.p18")}</p>
         <img src={Validator11} alt="Validator 11" className="w-[900px] img" />
-        <img src={Validator12} alt="Validator 12" className="w-[400px] img" />
+        <img
+          src={Validator12}
+          alt="Validator 12"
+          className="w-[400px] img  mb-4"
+        />
 
         <div className="mb-4">
           <p>{t("step3.p19")}</p>
@@ -135,9 +152,17 @@ const MainGuidStep_3 = ({ id }) => {
 
         <p>{t("step3.p21")}</p>
         <CopyCodeButton command={t("step3.p22")} />
-        <img src={Validator13} alt="Validator 13" className="w-[900px] img" />
+        <img
+          src={Validator13}
+          alt="Validator 13"
+          className="w-[900px] img  mb-4"
+        />
         <p>{t("step3.p23")}</p>
-        <img src={Validator15} alt="Validator 15" className="w-[900px] img" />
+        <img
+          src={Validator15}
+          alt="Validator 15"
+          className="w-[900px] img  mb-4"
+        />
         <p>{t("step3.p24")}</p>
       </div>
     </div>

@@ -6,11 +6,11 @@ const RentServerGuidStep_5 = ({ id }) => {
 
   return (
     <div id={id} className="">
-      <GuidStepTemplate
-        id={id}
-        title={t("step5.title")}
-        description={t("step5.description")}
-      />
+      <GuidStepTemplate id={id} title={t("step5.title")} />
+
+      <div className="ml-4 mr-4">
+        <p>{t("step5.p01")}</p>
+      </div>
     </div>
   );
 };

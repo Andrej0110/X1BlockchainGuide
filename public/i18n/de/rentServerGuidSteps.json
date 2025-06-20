@@ -6,42 +6,42 @@
     "p03": "Gehe hierzu auf die Webseite <telegramLink>InterServer</telegramLink> und folge anschließend der Schritt für Schritt Anweisung.",
     "step1": {
         "title": "Schritt 1: Auswahl dedizierter Server",
-        "description": "Klicke oben in der Zeile auf Server und wähle anschließend DEDICATED Home. Der Begriff dedicated (dedizierter Server) bedeutet, dass die gesamte Hardware eines physischen Servers nur einem einzigen Kunden zur Verfügung steht. Das unterscheidet einen dedizierten Server von virtuellen Servern (VPS), bei denen sich mehrere Kunden die Ressourcen eines Servers teilen."
+        "p01": "Klicke oben in der Zeile auf Server und wähle anschließend DEDICATED Home. Der Begriff dedicated (dedizierter Server) bedeutet, dass die gesamte Hardware eines physischen Servers nur einem einzigen Kunden zur Verfügung steht. Das unterscheidet einen dedizierten Server von virtuellen Servern (VPS), bei denen sich mehrere Kunden die Ressourcen eines Servers teilen."
       },
     "step2": {
         "title": "Schritt 2: Auswahl Prozessor",
-        "description": "Die Mindestanforderung sind 12 CPUs, und da wir für 153 $ auch einen mit 16 CPUs bekommen können, wählen wir den AMD Ryzen 7950X3D aus und klicken auf 'CONFIGURE NOW'."
+        "p01": "Die Mindestanforderung sind 12 CPUs, und da wir für 153 $ auch einen mit 16 CPUs bekommen können, wählen wir den AMD Ryzen 7950X3D aus und klicken auf 'CONFIGURE NOW'."
     },
     "step3": {
         "title": "Schritt 3: Auswahl Hardware Spezifikation",
-        "description": "Select Memory",
-        "headline": "Die Mindestanforderungen für den RAM-Speicher betragen 128 GB. Jack Levin empfiehlt, mehr zu verwenden. Du kannst dich für 128 GB entscheiden und später aufrüsten oder direkt 192 GB auswählen.",
-        "headline_02": "Select Hard Drives",
-        "description_02": "Im Testnet sind derzeit 2 TB NVMe ausreichend, und du kannst dir die Mehrkosten vorerst sparen. Im Mainnet werden später 4 TB NVMe notwendig sein, besser sind sogar 2x 4 TB NVMe.",
-        "headline_03": "SELECT RAID TYPE",
-        "description_03": "Wenn du direkt zu Beginn den optimalen Server auswählen möchtest, um fürs Mainnet die zusätzlich Arbeit zu vermeiden, dann entscheide dich für 192GB und 2x 4 TB NVMe. Sobald du mindestens 2 Stück NVMe Festplatten ausgewählt hast, bekommst du eine weitere Auswahl unter 'SELECTED RAID TYPE'. Wähle hier die Option 'Hardware Raid 1' aus und etwas weiter unten unter 'Select Control Panel' wählst du anschließend 'No Control Panel'.",
-        "headline_04": "Select OS",
-        "p01": "Unter 'Select OS' wählen wir Ubuntu LTS aus. Den Rest können wir so belassen, wie er durch die Vorauswahl festgelegt wurde. Bestätige deine Auswahl."
+        "headline01": "Select Memory",
+        "p01": "Die Mindestanforderungen für den RAM-Speicher betragen 128 GB. Jack Levin empfiehlt, mehr zu verwenden. Du kannst dich für 128 GB entscheiden und später aufrüsten oder direkt 192 GB auswählen.",
+        "headline02": "Select Hard Drives",
+        "p02": "Im Testnet sind derzeit 2 TB NVMe ausreichend, und du kannst dir die Mehrkosten vorerst sparen. Im Mainnet werden später 4 TB NVMe notwendig sein, besser sind sogar 2x 4 TB NVMe.",
+        "headline03": "SELECT RAID TYPE",
+        "p03": "Wenn du direkt zu Beginn den optimalen Server auswählen möchtest, um fürs Mainnet die zusätzlich Arbeit zu vermeiden, dann entscheide dich für 192GB und 2x 4 TB NVMe. Sobald du mindestens 2 Stück NVMe Festplatten ausgewählt hast, bekommst du eine weitere Auswahl unter 'SELECTED RAID TYPE'. Wähle hier die Option 'Hardware Raid 1' aus und etwas weiter unten unter 'Select Control Panel' wählst du anschließend 'No Control Panel'.",
+        "headline04": "Select OS",
+        "p04": "Unter 'Select OS' wählen wir Ubuntu LTS aus. Den Rest können wir so belassen, wie er durch die Vorauswahl festgelegt wurde. Bestätige deine Auswahl."
         
     },
     "step4": {
         "title": "Schritt 4: Auswahl prüfen",
-        "description": "Prüfe deine Auswahl und klicke anschließend auf 'CONTINUE'.",
-        "p01": "Testnet",
-        "p02": "Mainnet"
+        "p01": "Prüfe deine Auswahl und klicke anschließend auf 'CONTINUE'.",
+        "p02": "Testnet",
+        "p03": "Mainnet"
     },
     "step5": {
         "title": "Schritt 5: Account anlegen",
-        "description": "Lege einen Account an bei InterServer und melde dich an."
+        "p01": "Lege einen Account an bei InterServer und melde dich an."
     },
     "step6": {
         "title": "Schritt 6: Root Passwort vergeben",
-        "description": "Den Server-Hostname kannst du beliebig vergeben. Diesen Namen siehst nur du im Terminal, wenn wir den Validator auf den Server installieren. Das Root-Passwort ist wichtig, um sich auf den Server einloggen zu können. Vergeben ein neues Passwort und merke es dir! Schließe den Kauf ab."
+        "p01": "Den Server-Hostname kannst du beliebig vergeben. Diesen Namen siehst nur du im Terminal, wenn wir den Validator auf den Server installieren. Das Root-Passwort ist wichtig, um sich auf den Server einloggen zu können. Vergeben ein neues Passwort und merke es dir! Schließe den Kauf ab."
     },
     "step7": {
         "title": "Schritt 7: IP Adresse",
-        "description": "Wenn du bei InterServer angemeldet bist, dann siehst du unter dem Menüpunkt Servers deinen Server. Es dauert etwa 5–10 Minuten (in Ausnahmefällen bis zu 48h), bis bei dir unter IP eine Adresse angezeigt wird. Diese IP-Adresse werden wir für das Einloggen in den Server benötigen. Lass die Seite geöffnet oder notiere dir die IP-Adresse, sobald sie angezeigt wird.",
-        "p01": "Um die Zeit sinnvoll zu nutzen, fahren wir mit der Einrichtung von <telegramLink>Ubuntu (Putty)</telegramLink> fort.",
-        "p02": "Als macOS-Nutzer kannst du mit dem <telegramLink>Main Guide</telegramLink> fortfahren."
+        "p01": "Wenn du bei InterServer angemeldet bist, dann siehst du unter dem Menüpunkt Servers deinen Server. Es dauert etwa 5–10 Minuten (in Ausnahmefällen bis zu 48h), bis bei dir unter IP eine Adresse angezeigt wird. Diese IP-Adresse werden wir für das Einloggen in den Server benötigen. Lass die Seite geöffnet oder notiere dir die IP-Adresse, sobald sie angezeigt wird.",
+        "p02": "Um die Zeit sinnvoll zu nutzen, fahren wir mit der Einrichtung von <telegramLink>Ubuntu (Putty)</telegramLink> fort.",
+        "p03": "Als macOS-Nutzer kannst du mit dem <telegramLink>Main Guide</telegramLink> fortfahren."
     }
 }

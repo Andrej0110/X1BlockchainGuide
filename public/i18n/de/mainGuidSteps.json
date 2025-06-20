@@ -16,8 +16,7 @@
   },
   "step3": {
     "title": "Schritt 3: Server einrichten",
-    "description": "Herzlichen Glückwunsch, dir fehlt nur noch der letzte Schritt um deinen X1 Validator einzurichten.",
-    "p01": "Wir fangen nun damit an, die <telegramLink>X1 Console von BlackBeard</telegramLink> zu kopieren.",
+    "p01": "Herzlichen Glückwunsch, dir fehlt nur noch der letzte Schritt um deinen X1 Validator einzurichten. Wir fangen nun damit an, die <telegramLink>X1 Console von BlackBeard</telegramLink> zu kopieren.",
     "p02": "1. Gib hierzu im Terminal (PuTTY) Folgendes ein:",
     "p03": "git clone https://github.com/BlackBeard085/x1console.git && cd x1console",
     "p04": "2. Sobald die Kopie erstellt ist, kannst du die X1 Console mit dem folgenden Befehl auf deinem Server installieren:",
@@ -32,7 +31,7 @@
     "p13": "1. Solltest du mal den Zugang zum Server verlieren, dann verlierst du auch den Zugang zu deiner Wallet. Um das zu vermeiden, notiere dir die Seed Phrase jeder einzelnen Wallet – in Summe 4 Stück. Solltest du in deinem Terminalfenster, wie ich, nur 2 Wallets sehen, scrolle dann einfach hoch. Die Adresse 'pubkey' musst du nicht händisch abschreiben, weil du diese in der X1 Console jederzeit wiederfinden kannst.",
     "p14": "2. Sobald du dir deine Seed-Phrasen zu den jeweiligen Wallets notiert hast, benötigt deine 'id' Wallet XNT. Gehe hierzu auf die <telegramLink>Faucet Website</telegramLink>.",
     "p15": "Sollte das Faucet leer sein, gibt es noch die Option, in der <telegramLink>Validator Telegram Gruppe</telegramLink> darum zu bitten, dass dir XNT zugesendet wird. Schreibe hierzu einfach in den Chat deine Pubkey/Adresse von der ID Wallet und bitte um XNT.",
-    "p16": "Alternativ kannst du mich auch direkt kontaktieren in der Telegram-Gruppe <telegramLink>X1BlockchainGuide</telegramLink>.",
+    "p16": "Alternativ kannst du mich auch direkt kontaktieren in der Telegram-Gruppe <telegramLink>X1BlockchainGuide</telegramLink>. Drücke die Taste Enter und fahre mit der Installation fort. Die Installation kannst du auch ohne XNT abschließen.",
     "p17": "Drücke die Taste Enter und fahre mit der Installation fort. Die Installation kannst du auch ohne XNT abschließen.",
     "p18": "Sobald die Installation abgeschlossen ist, müssen wir die PATH-Änderungen durchführen. Hierzu beenden wir das dargestellte Menü und die X1 Console.",
     "p19": "1. Anschließend geben wir folgenden Code im Terminal ein:",
@@ -44,11 +43,8 @@
   },
   "step4": {
     "title": "Schritt 4: Status Delinquent",
-    "description": "Solltest du den Schritt mit dem XNT übersprungen haben, dann schau dir das nächste Bild an.",
-    "p01": "Wenn dein Status 'Delinquent' ist, dann benötigt deine ID Wallet mindestens 1 XNT. Ob du bereits die XNT vom Faucet oder einem User erhalten hast, kannst du unter '3. Check Balance' nachschauen.",
-    "p02": "1. Sobald dir die XNT zur Verfügung stehen, wähle 'Health Check and Start Validator' aus. Nach dem Health Check sollte dein Validator den Status 'Active' haben.",
-    "p03": "Solltest du das Terminal schließen, dann kannst du auf die X1 Console, nach dem Login auf deinen Server, mit folgendem Befehl zugreifen:",
-    "p04": "cd x1console && ./x1console.sh",
-    "p05": "Hat dir diese Anleitung geholfen? Unterstütze die Weiterentwicklung mit einer kleinen Spende. Jeder Betrag hilft, danke!"
+    "p01": "Solltest du den Schritt mit dem XNT übersprungen haben, dann schau dir das nächste Bild an. Wenn dein Status 'Delinquent' ist, dann benötigt deine ID Wallet mindestens 1 XNT. Ob du bereits die XNT vom Faucet oder einem User erhalten hast, kannst du unter '3. Check Balance' nachschauen. Sobald dir die XNT zur Verfügung stehen, wähle '1. Health Check and Start Validator' aus. Nach dem Health Check sollte dein Validator den Status 'Active' haben. Solltest du das Terminal schließen, dann kannst du auf die X1 Console, nach dem Login auf deinen Server, mit folgendem Befehl zugreifen:",
+    "p02": "cd x1console && ./x1console.sh",
+    "p03": "Hat dir diese Anleitung geholfen? Unterstütze die Weiterentwicklung mit einer kleinen Spende. Jeder Betrag hilft, danke!"
   }
 }
