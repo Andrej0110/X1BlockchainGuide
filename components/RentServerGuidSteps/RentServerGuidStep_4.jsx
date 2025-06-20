@@ -14,11 +14,23 @@ const RentServerGuidStep_4 = ({ id }) => {
         title={t("step4.title")}
         description={t("step4.description")}
       />
-      <div className="image-container ml-4 mr-4">
-        <p>{t("step4.p01")}</p>
-        <img src={InterServer06_01} alt={`Test1`} className="w-[400px] img" />
-        <p>{t("step4.p02")}</p>
-        <img src={InterServer06_02} alt={`Test1`} className="w-[400px] img" />
+      <div Joltediv className="flex flex-row gap-4 ml-4 mr-4 overflow-x-auto">
+        <div className="flex flex-col">
+          <p className="font-semibold m-0">{t("step4.p01")}</p>
+          <img
+            src={InterServer06_01}
+            alt={t("step4.p01.alt")}
+            className="w-[345px] h-auto rounded-md shadow-sm border-2 border-black"
+          />
+        </div>
+        <div className="flex flex-col">
+          <p className="font-semibold m-0">{t("step4.p02")}</p>
+          <img
+            src={InterServer06_02}
+            alt={t("step4.p02.alt")}
+            className="w-[345px] h-auto rounded-md shadow-sm border-2 border-black"
+          />
+        </div>
       </div>
     </div>
   );

@@ -25,25 +25,33 @@ const MainGuidStep_3 = ({ id }) => {
 
       <div className="ml-4 mr-4">
         <p>{t("step3.description")}</p>
-    
-        <Trans
-          i18nKey="mainGuidSteps:step3.p01"
-          components={{
-            telegramLink: (
-              <a
-                href="https://github.com/BlackBeard085/x1console"
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-            ),
-          }}
-        />
 
-        <p>{t("step3.p02")}</p>
-        <CopyCodeButton command={t("step3.p03")} />
-        <p>{t("step3.p04")}</p>
-        <CopyCodeButton command={t("step3.p05")} />
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p01"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://github.com/BlackBeard085/x1console"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              ),
+            }}
+          />
+        </p>
+
+        <div className="mb-4 mt-2">
+          <p>{t("step3.p02")}</p>
+          <CopyCodeButton command={t("step3.p03")} />
+        </div>
+
+        <div className="mb-4">
+          <p>{t("step3.p04")}</p>
+          <CopyCodeButton command={t("step3.p05")} />
+        </div>
+
         <p>{t("step3.p06")}</p>
         <img src={Validator01} alt="Validator 1" className="w-[900px] img" />
         <p>{t("step3.p07")}</p>
@@ -63,61 +71,68 @@ const MainGuidStep_3 = ({ id }) => {
         <p>{t("step3.p13")}</p>
 
         <p>
-        <Trans
-          i18nKey="mainGuidSteps:step3.p14"
-          components={{
-            telegramLink: (
-              <a
-                href="https://faucet.x1.wiki/"
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-            ),
-          }}
-        />
-      </p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p14"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://faucet.x1.wiki/"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              ),
+            }}
+          />
+        </p>
 
         <p>
-         <Trans
-          i18nKey="mainGuidSteps:step3.p15"
-          components={{
-            telegramLink: (
-              <a
-                href="https://t.me/+yT0VAcNPFqM3OGQ0"
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-            ),
-          }}
-        />
-      </p>
+          <Trans
+            i18nKey="mainGuidSteps:step3.p15"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://t.me/+yT0VAcNPFqM3OGQ0"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              ),
+            }}
+          />
+        </p>
 
         <p>
-         <Trans
-          i18nKey="mainGuidSteps:step3.p16"
-          components={{
-            telegramLink: (
-              <a
-                href="https://t.me/X1BlockchainGuide"
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-            ),
-          }}
-        />
-      </p>
-
+          <Trans
+            i18nKey="mainGuidSteps:step3.p16"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://t.me/X1BlockchainGuide"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              ),
+            }}
+          />
+        </p>
 
         <p>{t("step3.p17")}</p>
-        <img src={Validator10} alt="Validator 10" className="mt-4 w-[900px] img" />
+        <img
+          src={Validator10}
+          alt="Validator 10"
+          className="mt-4 w-[900px] img"
+        />
         <p>{t("step3.p18")}</p>
         <img src={Validator11} alt="Validator 11" className="w-[900px] img" />
         <img src={Validator12} alt="Validator 12" className="w-[400px] img" />
-        <p>{t("step3.p19")}</p>
-        <CopyCodeButton command={t("step3.p20")} />
+
+        <div className="mb-4">
+          <p>{t("step3.p19")}</p>
+          <CopyCodeButton command={t("step3.p20")} />
+        </div>
+
         <p>{t("step3.p21")}</p>
         <CopyCodeButton command={t("step3.p22")} />
         <img src={Validator13} alt="Validator 13" className="w-[900px] img" />

@@ -7,7 +7,7 @@ import PuttyAddUser05 from "./Pictures/PuttyAddUser_05.webp";
 import PuttyAddUser06 from "./Pictures/PuttyAddUser_06.webp";
 import CopyCodeButton from "../Buttons/CopyCodeButton.jsx";
 
-const WslGuidStep_3 = ({ id,  activeTab, setActiveTab }) => {
+const WslGuidStep_3 = ({ id, activeTab, setActiveTab }) => {
   const { t } = useTranslation("wslGuidSteps");
 
   const handleButtonClickMain = (e) => {
@@ -37,37 +37,45 @@ const WslGuidStep_3 = ({ id,  activeTab, setActiveTab }) => {
         <p>{t("step3.p01")}</p>
         <img src={PuttyAddUser02} className="w-[600px] img" />
         <p>{t("step3.p02")}</p>
-        <p>{t("step3.p03")}</p>
-        <CopyCodeButton command={t("step3.p03_01")} />
+
+        <div className="mb-4 mt-2">
+          <p>{t("step3.p03")}</p>
+          <CopyCodeButton command={t("step3.p03_01")} />
+        </div>
+
         <p>{t("step3.p04")}</p>
         <img src={PuttyAddUser03} className="w-[600px] img" />
         <p>{t("step3.p05")}</p>
-        <p>{t("step3.p06")}</p>
-        <p>{t("step3.p07")}</p>
-        <p>{t("step3.p08")}</p>
-        <p>3.</p>
-        <CopyCodeButton command={t("step3.p09")} />
+        <p className="mt-2">{t("step3.p06")}</p>
+        <p className="mt-2">{t("step3.p07")}</p>
+        <p className="mt-2">{t("step3.p08")}</p>
+
+        <div className="flex items-center mb-4 mt-2">
+          <p className="mr-2">3.</p>
+          <CopyCodeButton command={t("step3.p09")} />
+        </div>
+
         <p>{t("step3.p10")}</p>
         <img src={PuttyAddUser05} className="w-[600px] img" />
         <p>{t("step3.p11")}</p>
         <p>{t("step3.p12")}</p>
 
-        <p className="ml-4">
-        <Trans
-          i18nKey="wslGuidSteps:step3.p13"
-          components={{
-            telegramLink: (
-              <a
-                href="#main" // Verweist auf den Main Guide Abschnitt
-                onClick={handleButtonClickMain}
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-              />
-            ),
-          }}
-        />
-      </p>
+        <p>
+          <Trans
+            i18nKey="wslGuidSteps:step3.p13"
+            components={{
+              telegramLink: (
+                <a
+                  href="#main" // Verweist auf den Main Guide Abschnitt
+                  onClick={handleButtonClickMain}
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                />
+              ),
+            }}
+          />
+        </p>
 
-        <img src={PuttyAddUser06} className="w-[600px] img" />
+        <img src={PuttyAddUser06} className="w-[600px] img mb-2" />
       </div>
     </div>
   );

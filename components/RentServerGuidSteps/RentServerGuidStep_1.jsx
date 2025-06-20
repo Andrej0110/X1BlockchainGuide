@@ -18,7 +18,7 @@ const RentServerGuidStep_1 = ({ id }) => {
               telegramLink: (
                 <a
                   href="https://docs.x1.xyz/validating/performance/hardware-requirements"
-                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  className="link"
                   target="_blank"
                   rel="noopener noreferrer"
                 />
@@ -34,7 +34,7 @@ const RentServerGuidStep_1 = ({ id }) => {
               telegramLink: (
                 <a
                   href="https://www.interserver.net/r/1013595"
-                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                  className="link"
                   target="_blank"
                   rel="noopener noreferrer"
                 />

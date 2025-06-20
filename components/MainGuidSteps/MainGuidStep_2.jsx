@@ -24,27 +24,27 @@ const MainGuidStep_2 = ({ id, activeTab, setActiveTab }) => {
       <GuidStepTemplate
         id={id}
         title={t("step2.title")}
-        description={t("step2.description")}
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         tabValue="wsl"
       />
 
       <div className="ml-4 mr-4" id="step2">
-        {" "}
-        {/*ID  step2 ggfs wieder löschen */}{" "}
-        <Trans
-          i18nKey="mainGuidSteps:step2.buttonText"
-          components={{
-            telegramLink: (
-              <a
-                href="#wsl" // Verweist auf den wsl Guide Abschnitt
-                onClick={handleButtonClickWsl}
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-              ></a>
-            ),
-          }}
-        />
+        <p>
+          <Trans
+            i18nKey="mainGuidSteps:step2.p01"
+            components={{
+              telegramLink: (
+                <a
+                  href="#wsl" // Verweist auf den wsl Guide Abschnitt
+                  onClick={handleButtonClickWsl}
+                  className="link"
+                ></a>
+              ),
+            }}
+          />
+        </p>
+
         <img src={PuttyAddUser01} className="w-[600px] img" />
       </div>
     </div>

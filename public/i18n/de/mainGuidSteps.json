@@ -5,11 +5,13 @@
   "step1": {
     "title": "Schritt 1: Server mieten",
     "description": "Um deinen X1 Validator einzurichten, benötigst du einen Server, den man bei verschiedenen Anbietern monatlich mieten kann. Wenn du bereits einen Server hast, der den Mindestanforderungen (siehe Bild) entspricht, kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
+    "p01": "Um deinen X1 Validator einzurichten, benötigst du einen Server, den man bei verschiedenen Anbietern monatlich mieten kann. Wenn du bereits einen Server hast, der den Mindestanforderungen (siehe Bild) entspricht, kannst du diesen Schritt überspringen. Andernfalls fahre fort mit <telegramLink>Server mieten</telegramLink>.",
     "buttonText": "Server mieten"
   },
   "step2": {
     "title": "Schritt 2: Mit Server verbinden",
     "description": "Verbinde dich mit deinem Server. Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Andernfalls fahre fort mit:",
+    "p01": "Verbinde dich mit deinem Server. Wenn du Windows als Betriebssystem nutzt, benötigst du das Programm PuTTY, um auf den Server zugreifen zu können. Solltest du PuTTY bereits haben, dann kannst du diesen Schritt überspringen. Andernfalls fahre fort mit <telegramLink>Ubuntu (PuTTY)</telegramLink>.",
     "buttonText": "<telegramLink>Ubuntu (PuTTY)</telegramLink>"
   },
   "step3": {

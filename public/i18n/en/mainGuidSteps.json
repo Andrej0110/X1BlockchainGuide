@@ -4,13 +4,11 @@
   "tableOfContent": "Table of Contents",
   "step1": {
     "title": "Step 1: Rent a Server",
-    "description": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements (see image), you can skip this step. Otherwise, continue with:",
-    "buttonText": "Rent Server"
+    "p01": "To set up your X1 Validator, you need a server, which you can rent from various providers on a monthly basis. If you already have a server that meets the minimum requirements (see image), you can skip this step. Otherwise, continue with <telegramLink>Rent Server</telegramLink>."
   },
   "step2": {
     "title": "Step 2: Connect to Server",
-    "description": "Connect to your server. If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with:",
-    "buttonText": "<telegramLink>Ubuntu (PuTTY)</telegramLink>"
+    "p01": "Connect to your server. If you are using Windows as your operating system, you will need the PuTTY program to access the server. If you already have PuTTY, you can skip this step. Otherwise, continue with <telegramLink>Ubuntu (PuTTY)</telegramLink>."
   },
   "step3": {
     "title": "Step 3: Start Validation",

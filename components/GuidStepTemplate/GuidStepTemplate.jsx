@@ -16,14 +16,13 @@ const GuidStepTemplate = ({
     <div className="">
       <div id={id} className="p-4 mt-6">
         <h3 className="text-2xl font-semibold">{title}</h3>
+
         <p className="">{description}</p>
         {buttonText && setActiveTab && tabValue && (
           <button
             onClick={() => setActiveTab(tabValue)}
             className={`font-semibold ${
-              activeTab === tabValue
-                ? "text-blue-600"
-                : "text-blue-600 hover:text-blue-800  hover:underline"
+              activeTab === tabValue ? "link" : "link"
             }`}
           >
             {buttonText}

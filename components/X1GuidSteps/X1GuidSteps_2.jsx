@@ -1,3 +1,4 @@
+//FAQ
 import { useTranslation, Trans } from "react-i18next";
 import "./X1GuidSteps.css";
 
@@ -57,6 +58,10 @@ const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
         <li>
           <span className="font-bold">{t("faq.p04.question")}</span>
           <span className="ml-2">{t("faq.p04.answer")}</span>
+        </li>
+        <li>
+          <span className="font-bold">{t("faq.p05.question")}</span>
+          <span className="ml-2">{t("faq.p05.answer")}</span>
         </li>
       </ul>
     </div>

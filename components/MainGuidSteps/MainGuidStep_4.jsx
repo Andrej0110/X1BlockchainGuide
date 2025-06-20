@@ -16,10 +16,16 @@ const MainGuidStep_4 = ({ id }) => {
         <p>{t("step4.p01")}</p>
         <p>{t("step4.p02")}</p>
         <p>{t("step4.p03")}</p>
-        <CopyCodeButton command={t("step4.p04")} />
+
+        <div className="mb-4 mt-2">
+          <CopyCodeButton command={t("step4.p04")} />
+        </div>
+
         <img src={Validator14} alt={`Validator 14`} className="w-[900px] img" />
         <h2>{t("step4.p05")}</h2>
-        <DonateButton />
+        <div className="mb-2">
+          <DonateButton />
+        </div>
       </div>
     </div>
   );

@@ -47,11 +47,7 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
           i18nKey="rentServerGuidSteps:step7:p01"
           components={{
             telegramLink: (
-              <a 
-                href="#wsl"
-                onClick={handleButtonClickWsl}
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-              />
+              <a href="#wsl" onClick={handleButtonClickWsl} className="link" />
             ),
           }}
         />
@@ -65,7 +61,7 @@ const RentServerGuidStep_7 = ({ id, activeTab, setActiveTab }) => {
               <a
                 href="#main"
                 onClick={handleButtonClickMain}
-                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                className="link"
               />
             ),
           }}
