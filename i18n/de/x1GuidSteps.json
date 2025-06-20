@@ -20,7 +20,7 @@
         },
         "p05": {
           "title": "Keine Voting-Kosten!",
-          "answer": "Im Gegensatz zu Solana kostet Voting nichts – starte deinen Validator einfach los!"
+          "answer": "Im Gegensatz zu Solana kostet Voting nichts – starte ganz einfach einen Validator!"
         }
       },
       "faq": {
@@ -41,6 +41,10 @@
         "p04": {
           "question": "Warum ist dieser Guide besonders?",
           "answer": "Er nutzt die X1 Console von BlackBeard, mit der die meisten Installationen automatisch erfolgen – Zeit und Aufwand gespart!"
+        },
+        "p05": {
+          "question": "Wie viel Zeit muss ich dafür einplanen?",
+          "answer": "Von keiner Ahnung bis zum Validator brauchst du lediglich 1 Stunde."
         }
       },
       "sources": {

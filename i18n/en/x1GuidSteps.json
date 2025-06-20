@@ -42,6 +42,10 @@
         "p04": {
           "question": "What makes this guide special?",
           "answer": "It uses BlackBeard's X1 Console, which automates most installations – saving time and effort!"
+        },
+        "p05": {
+          "question": "How much time do I need to set aside for this?",
+          "answer": "From zero knowledge to becoming a validator, you only need 1 hour."
         }
       },
       "sources": {
