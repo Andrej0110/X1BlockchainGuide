@@ -1,47 +1,34 @@
-CNAME einrichten
-CNAME Datei anlegen unter Public ohne Endung und folgendes einfügen: www.x1blockchainguide.com
+#CNAME einrichten
+Um zu verhindern, dass man nach deploy auf gitHub die Seite ständig eingeben zu müssen:
+"CNAME" Datei anlegen unter Public ohne Endung und folgendes einfügen: www.x1blockchainguide.com
 
-prüfen, warum die Webseite https://www.x1blockchainguide.com/ValidatorGuide nicht funktioniert
 
 
-Sicherung package.json
-{
-  "name": "x1validatorguide",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "homepage": "https://github.com/Andrej0110/X1BlockchainGuide",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
-    "i18next": "^25.2.1",
-    "i18next-browser-languagedetector": "^8.1.0",
-    "i18next-http-backend": "^3.0.2",
-    "i18next-resources-to-backend": "^1.2.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-i18next": "^15.5.2",
-    "react-parallax-tilt": "^1.7.296",
-    "react-router-dom": "^7.6.2",
-    "tailwindcss": "^4.1.7"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react": "^4.4.1",
-    "eslint": "^9.25.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "gh-pages": "^6.3.0",
-    "globals": "^16.0.0",
-    "vite": "^6.3.5"
-  }
-}
+#E-E-A-T (KI)
+#KI SOE Schema.org-Markup für URL Links
+#Browser automatische Auswahl Sprache
+
+#Index html: 
+Favicon hinzufügen: 
+Füge ein <link rel="icon" type="image/x-icon" href="/favicon.ico"> im <head> 
+hinzu, um ein Icon für deinen Tab/Browser zu erstellen. 
+Erstelle ein kleines Bild (z. B. 16x16 oder 32x32 Pixel) und lade es hoch.
+
+#X1 Seite Text hinzufügen mit Link zu www.x1val.online
+Werde Teiil des Netzwerks
+
+
+#Bilder Testnet und Mainnet unterschiedlich hoch
+
+#Main Guide Schritt 3
+www.x1val.online
+nachschauen ob man gelistet ist
+
+#Home Button 
+#Service
+#Kontaktdaten X und Telegram als Icon 
+#Disclaimer
+#Impressum
+#Einige Bilder noch jpg https://squoosh.app/
+#Bilder alt ist überall falsch
+#Link zum Teilen der Webseite?

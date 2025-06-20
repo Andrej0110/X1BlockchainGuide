@@ -55,3 +55,39 @@
             />
 
 *\}
+
+/////////////
+Code fürs Einbetten einer Seite 
+/////////////
+
+const MyPage = () => {
+  return (
+    <div className="container mx-auto px-4">
+      <h1 className="text-2xl font-bold mb-4">Webseite von x1val.online</h1>
+      <div className="relative w-full h-0 pb-[56.25%]">
+        <iframe
+          src="https://www.x1val.online"
+          title="x1val Webseite"
+          className="absolute top-0 left-0 w-full h-full border-none"
+        />
+      </div>
+    </div>
+  );
+};
+
+const MyPage = () => {
+    return (
+      <div className="container mx-auto px-4">
+        <h1 className="text-2xl font-bold mb-4">
+          Obere Hälfte von x1val.online
+        </h1>
+        <div className="relative w-full h-96 overflow-hidden">
+          <iframe
+            src="https://www.google.com"
+            title="x1val Webseite"
+            className="absolute top-0 left-0 w-full h-[200%]"
+          />
+        </div>
+      </div>
+    );
+  };
