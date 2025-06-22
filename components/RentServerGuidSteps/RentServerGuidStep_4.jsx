@@ -15,7 +15,7 @@ const RentServerGuidStep_4 = ({ id }) => {
         <p>{t("step4.p01")}</p>
       </div>
 
-      <div Joltediv className="flex flex-row gap-4 ml-4 mr-4 overflow-x-auto">
+      <div className="flex flex-row gap-4 ml-4 mr-4 overflow-x-auto">
         <div className="flex flex-col">
           <p className="font-semibold m-0">{t("step4.p02")}</p>
           <img
@@ -29,7 +29,7 @@ const RentServerGuidStep_4 = ({ id }) => {
           <img
             src={InterServer06_02}
             alt={t("step4.p02.alt")}
-            className="w-[345px] h-auto rounded-md shadow-sm border-2 border-black"
+            className="w-[341px] h-auto rounded-md shadow-sm border-2 border-black"
           />
         </div>
       </div>

@@ -63,6 +63,10 @@ const X1GuidStep_2 = ({ activeTab, setActiveTab }) => {
           <span className="font-bold">{t("faq.p05.question")}</span>
           <span className="ml-2">{t("faq.p05.answer")}</span>
         </li>
+        <li>
+          <span className="font-bold">{t("faq.p06.question")}</span>
+          <span className="ml-2">{t("faq.p06.answer")}</span>
+        </li>
       </ul>
     </div>
   );

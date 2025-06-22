@@ -14,6 +14,7 @@ import Validator11 from "./Pictures/Validator/validator_11.webp";
 import Validator12 from "./Pictures/Validator/validator_12.webp";
 import Validator13 from "./Pictures/Validator/validator_13.webp";
 import Validator15 from "./Pictures/Validator/validator_15.webp";
+import Validator16 from "./Pictures/Validator/validator_16.jpg";
 import CopyCodeButton from "../Buttons/CopyCodeButton.jsx";
 
 const MainGuidStep_3 = ({ id }) => {
@@ -163,7 +164,28 @@ const MainGuidStep_3 = ({ id }) => {
           alt="Validator 15"
           className="w-[900px] img  mb-4"
         />
-        <p>{t("step3.p24")}</p>
+
+        <p>
+        <Trans
+            i18nKey="mainGuidSteps:step3.p24"
+            components={{
+              telegramLink: (
+                <a
+                  href="https://x1val.online/"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              ),
+            }}
+          />
+        </p>
+        <img
+          src={Validator16}
+          alt="Validator 15"
+          className="w-[900px] img  mb-4"
+        />
+
       </div>
     </div>
   );

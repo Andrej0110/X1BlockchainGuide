@@ -24,6 +24,8 @@
           "answer": "Unlike Solana, voting is free – launch your validator easily!"
         }
       },
+      "p01": "Become part of the network: <telegramLink>x1val.online</telegramLink>",
+        
       "faq": {
         "title": "Frequently asked questions (FAQ)",
         "p01": {
@@ -46,6 +48,10 @@
         "p05": {
           "question": "How much time do I need to set aside for this?",
           "answer": "From zero knowledge to becoming a validator, you only need 1 hour."
+        },
+        "p06": {
+          "question": "Are there any hidden costs?",
+          "answer": "No, apart from the hardware costs, there are no other costs. The X1 Console is free and you keep all the rewards you receive."
         }
       },
       "sources": {
