@@ -1,7 +1,6 @@
 import "./components/i18n/i18n.js"; // Korrigierter Pfad, abhängig von deiner Struktur
 import { useState, useEffect, Suspense } from "react";
 import { useTranslation } from "react-i18next";
-import Tilt from "react-parallax-tilt";
 import Logo from "../components/Logo/x1Logo";
 import MainGuidSteps from "../components/MainGuidSteps/MainGuidSteps.jsx";
 import WslGuidSteps from "../components/WslGuidSteps/WslGuidSteps.jsx";

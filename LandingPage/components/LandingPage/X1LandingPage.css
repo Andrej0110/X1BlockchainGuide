@@ -45,7 +45,7 @@ body {
 .text-container {
   text-align: center;
   color: #ffffff;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
   padding: 1rem;
   transform: translateX(0); /* Entfernt die Verschiebung nach links */
 }
@@ -53,6 +53,7 @@ body {
 .text-container h1 {
   font-size: 8rem;
   margin: 0;
+
   text-shadow: 0 0 0.8em #00f0ff, 0 0 0.8em #00e0ff;
 }
 

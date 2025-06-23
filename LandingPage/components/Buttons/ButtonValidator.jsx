@@ -1,4 +1,4 @@
-import "./ButtonLandingPage.css";
+import "./ButtonValidator.css";
 
 const ButtonLandingPage = ({ onClick }) => {
   return (
@@ -14,5 +14,3 @@ const ButtonLandingPage = ({ onClick }) => {
 };
 
 export default ButtonLandingPage;
-
-("./ButtonLandingPage.css");
