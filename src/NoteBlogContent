@@ -2,3 +2,11 @@
 #X1 Investoren
 #Staking
 #DeFi
+
+
+Vorschlag: Benenne konsistenter, z. B.:
+
+    BlogHome_1.jsx → BlogHeader.jsx (für den oberen Teil).
+    BlogPostInvestor_1.jsx → BlogCardInvestor.jsx.
+    BlogPostInvestor_2.jsx → BlogPostInvestor.jsx.
+    ValidatorGuide → /validator-guide (konsistenter Pfad-Stil)

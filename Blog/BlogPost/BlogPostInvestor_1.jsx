@@ -9,6 +9,7 @@ const BlogPostInvestor_1 = ({}) => {
         title="Investoren"
         description="Was wissen wir über die bisherigen Investoren und welchen Vorteil bringen Sie für die X1 Blockchain?"
         image={Test}
+        link="/blog/investor"
       />
     </div>
   );
