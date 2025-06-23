@@ -1,7 +1,6 @@
 import "./components/i18n/i18n.js"; // Korrigierter Pfad, abhängig von deiner Struktur
 import { useState, useEffect, Suspense } from "react";
 import { useTranslation } from "react-i18next";
-import reactLogo from "./assets/react.svg";
 import Tilt from "react-parallax-tilt";
 import Logo from "../components/Logo/x1Logo";
 import MainGuidSteps from "../components/MainGuidSteps/MainGuidSteps.jsx";
@@ -10,6 +9,7 @@ import RentServerGuidSteps from "../components/RentServerGuidSteps/RentServerGui
 import X1GuidSteps from "../components/X1GuidSteps/X1GuidSteps.jsx";
 import MenuButtons from "../components/Buttons/MenuButtons.jsx";
 import LanguageButtons from "../components/Buttons/LanguageButtons.jsx";
+import ServiceSteps from "../components/ServiceSteps/ServiceSteps.jsx";
 import "./App.css";
 
 function App() {
@@ -64,9 +64,29 @@ function App() {
             setActiveTab={setActiveTab}
           />
         )}
+
+        {activeTab === "service" && (
+          <ServiceSteps
+            language={language}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+        )}
       </div>
     </Suspense>
   );
 }
 
 export default App;
+
+{
+  /**
+ {activeTab === "service" && (
+          <ServiceSteps
+            language={language}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+        )}
+*/
+}
