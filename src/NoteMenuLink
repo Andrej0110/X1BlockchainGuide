@@ -91,3 +91,7 @@ const MyPage = () => {
       </div>
     );
   };
+
+  /////////
+  Favicon: https://realfavicongenerator.net/your-favicon-is-ready
+  /////////

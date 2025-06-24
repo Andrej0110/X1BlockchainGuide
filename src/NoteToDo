@@ -6,11 +6,7 @@ Um zu verhindern, dass man nach deploy auf gitHub die Seite ständig eingeben zu
 #KI SOE Schema.org-Markup für URL Links
 #Browser automatische Auswahl Sprache
 
-#Index html: 
-Favicon hinzufügen: 
-Füge ein <link rel="icon" type="image/x-icon" href="/favicon.ico"> im <head> 
-hinzu, um ein Icon für deinen Tab/Browser zu erstellen. 
-Erstelle ein kleines Bild (z. B. 16x16 oder 32x32 Pixel) und lade es hoch.
+
 
 #Home Button 
 #Service esrtmal gratis

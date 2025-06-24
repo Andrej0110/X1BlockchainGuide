@@ -2,9 +2,9 @@ import { useTranslation, Trans } from "react-i18next";
 
 const CalendlyPage = () => {
   return (
-    <div className="relative w-full h-[400px] overflow-hidden">
+    <div className="relative w-full h-[600px] overflow-hidden">
       <iframe
-        src="https://calendly.com/"
+        src="https://calendly.com/devandrej01/30min/"
         title="Calendly Webside"
         loading="lazy"
         sandbox="allow-same-origin allow-scripts allow-popups"
@@ -27,7 +27,7 @@ const ServiceStep_1 = ({}) => {
             components={{
               telegramLink: (
                 <a
-                  href="https://calendly.com/"
+                  href="https://calendly.com/devandrej01/30min"
                   className="link"
                   target="_blank"
                   rel="noopener noreferrer"

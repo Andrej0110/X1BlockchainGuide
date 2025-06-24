@@ -22,8 +22,14 @@ function X1LandingPage() {
       </div>
       <ButtonValidator onClick={handleButtonClickValidator} />
       <ButtonBlog onClick={handleButtonClickBlog} />
+
+      
     </div>
   );
 }
 
 export default X1LandingPage;
+{/*
+<ButtonBlog onClick={handleButtonClickBlog} />
+
+*/}
