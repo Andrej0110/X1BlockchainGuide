@@ -1,0 +1,23 @@
+RAID 0 (Striping): Diese Konfiguration kombiniert zwei SSDs (z. B. 2 x 2 TB) 
+zu einem logischen Laufwerk, um die Lese- und Schreibgeschwindigkeit zu 
+verdoppeln (z. B. bis zu 14.000 MB/s Lesen, 10.000 MB/s Schreiben bei der 980 PRO). 
+Allerdings gibt es keinen Datenschutz – ein Ausfall einer SSD zerstört alle Daten.
+
+Bei einem gemieteten Server wie bei Interserver wird RAID 0 typischerweise als 
+Hardware-RAID vom Server-Anbieter eingerichtet, da du keinen physischen Zugriff 
+hast. Das bedeutet, dass Interserver die RAID-Konfiguration auf Mainboard-Ebene 
+(z. B. mit einem RAID-Controller wie dem B650D4U-2L2T/BCM) vornimmt.
+
+No Control Panel" und Auswirkungen
+Kein Control Panel: Das bedeutet, dass du keinen Web-basierten Verwaltungsinterface 
+(z. B. cPanel, Plesk) hast, um Dienste oder Hardware-Einstellungen grafisch zu 
+verwalten. Du musst alles über die Kommandozeile (SSH) oder Interserver-Support tun.
+
+Falls Interserver den RAID 0 einrichtet:
+Nein, du musst nichts tun, solange die beiden 2 TB SSDs bereits installiert sind. 
+Interserver sollte den RAID 0 automatisch konfigurieren, nachdem du die Option 
+ausgewählt hast. Du erhältst dann ein einziges 4 TB-Laufwerk (2 TB x 2, gestripet), 
+das du wie eine normale Festplatte nutzen kannst.
+Prüfen: Nach der Einrichtung loggst du dich per SSH ein (z. B. mit ssh user@server-ip) 
+und überprüfst die Konfiguration mit:
+# lsblk (zeigt die Laufwerke)
