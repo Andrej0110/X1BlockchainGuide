@@ -1,8 +1,3 @@
-import { useTranslation } from "react-i18next";
-//import BlogPostInvestr_3 from "./BlogPostInvestor_3.jsx";
-
-import React from "react";
-
 const BlogPostInvestor_2 = ({}) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -18,7 +13,7 @@ const BlogPostInvestor_2 = ({}) => {
           <div className="flex items-center gap-4 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <span className="text-lg">🕐</span>
-              <span>ca. 5 Minuten Lesedauer</span>
+              <span>ca. 6 Minuten Lesedauer</span>
             </div>
           </div>
         </div>
@@ -34,7 +29,7 @@ const BlogPostInvestor_2 = ({}) => {
             Blockchain sind wir stolz darauf, Investoren an Bord zu haben, die
             nicht nur mit ihrem Kapital, sondern auch mit ihrer Expertise, ihrem
             Netzwerk und ihrer Vision die Plattform auf ein neues Level heben.
-            In diesem Beitrag stellen wir dir Jack Levin, Fred Krueger, Joe Blau
+            In diesem Beitrag stelle ich dir Jack Levin, Fred Krueger, Joe Blau
             und Stephen Ptucha vor – vier Persönlichkeiten, die X1 zu einer
             vielversprechenden Kraft in der Blockchain-Welt machen. Ergänzt wird
             dieses Team durch Seed-Investoren aus dem Solana-Ökosystem sowie
@@ -120,9 +115,8 @@ const BlogPostInvestor_2 = ({}) => {
               <p className="text-gray-700">
                 Jack Levins Investition von 196.333,23 USD ist eine bedeutende
                 finanzielle Injektion für X1 Labs. Diese Mittel können genutzt
-                werden, um die Entwicklung der Plattform voranzutreiben, neue
-                Features wie den Token Constructor oder dynamische Gebühren zu
-                implementieren und das Ökosystem weiter auszubauen.
+                werden, um die Entwicklung der Plattform voranzutreiben und das
+                Ökosystem weiter auszubauen.
               </p>
             </div>
 
@@ -233,7 +227,8 @@ const BlogPostInvestor_2 = ({}) => {
           <p className="text-gray-700 mb-6 leading-relaxed">
             Du bist in der Krypto-Welt auf der Suche nach dem nächsten großen
             Ding und stößt auf einen Namen, der immer wieder auftaucht: Fred
-            Krueger. Er ein Krypto-Visionär, der 100.000 USD (
+            Krueger. Als langjähriger Freund von Jack Levin ist er ein
+            Krypto-Visionär, der 100.000 USD (
             <a
               href="https://x.com/X1_chain/status/1932266282319282497"
               target="_blank"
@@ -255,8 +250,7 @@ const BlogPostInvestor_2 = ({}) => {
                 Fred Kruegers 100.000 USD sind ein kräftiger Schub für X1.
                 Dieses Kapital hilft, Entwickler einzustellen und die
                 Infrastruktur auszubauen. Für X1 bedeutet das: schneller die
-                Vision einer umweltfreundlichen, dezentralisierten Blockchain
-                umsetzen.
+                Vision einer dezentralisierten Blockchain umsetzen.
               </p>
             </div>
 
@@ -289,10 +283,10 @@ const BlogPostInvestor_2 = ({}) => {
                 Sichtbarkeit durch X-Präsenz
               </h4>
               <p className="text-gray-700">
-                Auf X spricht Fred direkt mit der Krypto-Community, etwa in
-                seinem Live-X-Space am 10. Juni 2025. Diese Sichtbarkeit lenkt
-                Aufmerksamkeit auf X1 und macht die Plattform für Entwickler und
-                Nutzer spannender.
+                Auf X spricht Fred direkt mit der Krypto-Community und in seinem
+                Livestream hat er seine Investition bekannt gegeben. Diese
+                Sichtbarkeit lenkt Aufmerksamkeit auf X1 und macht die Plattform
+                für Entwickler und Nutzer spannender.
               </p>
             </div>
 
@@ -350,7 +344,16 @@ const BlogPostInvestor_2 = ({}) => {
               </span>
             </div>
             <p className="text-gray-700">
-              Als Gründer von Atomize und Schöpfer des{" "}
+              Als Gründer von Atomize, der{" "}
+              <a
+                href="https://doodle.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Doodle App
+              </a>{" "}
+              und Schöpfer des{" "}
               <a
                 href="https://fenix.fyi/"
                 target="_blank"
@@ -438,8 +441,9 @@ const BlogPostInvestor_2 = ({}) => {
                 </a>
                 ) zeigen, dass er knifflige Herausforderungen meistert. Für X1
                 heißt das: Joe's Ansatz könnte Entwickler inspirieren, Tools wie
-                den Token Constructor zu nutzen, um dApps zu bauen, die auch
-                Neulinge begeistern.
+                den Token Constructor (eine einfache Möglichkeit Kryptowährungen
+                zu erstellen) zu nutzen, um dApps zu bauen, die auch Neulinge
+                begeistern.
               </p>
             </div>
 
@@ -500,7 +504,7 @@ const BlogPostInvestor_2 = ({}) => {
             <p className="text-gray-700">
               Mit seiner Expertise aus der Finanzwelt und seiner Zeit bei PayPal
               bringt er das ideale Know-how für X1s Stablecoin-Fokus mit. Am 10.
-              Juni 2025 kündigte Jack Levin seinen Einstieg an (
+              Juni 2025 kündigte Jack Levin seinen Einstieg als Investor an (
               <a
                 href="https://x.com/mrJackLevin/status/1932529238659502494"
                 target="_blank"
@@ -521,11 +525,28 @@ const BlogPostInvestor_2 = ({}) => {
             Wenn du an Stablecoins denkst, solltest du Stephen Ptucha kennen –
             ein Investor, der X1 mit seiner Expertise belebt. Als Digital
             Product Manager bringt er Erfahrung aus der Finanzwelt mit. Seine
-            Zeit bei PayPal und seine Rolle bei Solomon Labs machen ihn zum
-            idealen Unterstützer für X1s Stablecoin-Fokus. Am 10. Juni 2025
-            kündigte @mrJackLevin via X-Post Stephens Einstieg an. Mehr über ihn
-            findest du auf seinem LinkedIn-Profil. Warum ist sein Engagement so
-            spannend? Hier sind drei Gründe, wie Stephen X1 bereichert.
+            Zeit bei PayPal und seine Rolle bei{" "}
+            <a
+              href="https://solomonlabs.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Solomon Labs
+            </a>{" "}
+            machen ihn zum idealen Unterstützer für X1s Stablecoin-Fokus. Am 10.
+            Juni 2025 kündigte @mrJackLevin via X-Post Stephens Einstieg an.
+            Mehr über ihn findest du auf seinem{" "}
+            <a
+              href="https://www.linkedin.com/in/sptucha/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              LinkedIn-Profil
+            </a>
+            . Warum ist sein Engagement so spannend? Hier sind drei Gründe, wie
+            Stephen X1 bereichert.
           </p>
 
           <div className="space-y-6">
@@ -565,10 +586,10 @@ const BlogPostInvestor_2 = ({}) => {
               <p className="text-gray-700">
                 Stephen teilt seine Einblicke zu Krypto und Finanzen und rückt
                 damit X1 ins Rampenlicht. Sein Einstieg, gefeiert in einem
-                X-Post von @mrJackLevin vom 10. Juni 2025, signalisiert der
-                Community: „X1 ist ernstzunehmen." Diese Sichtbarkeit lockt
-                Entwickler an, die X1s kostengünstige Validatoren für
-                Stablecoin-Projekte nutzen wollen.
+                X-Post von Jack, signalisiert der Community: „X1 ist
+                ernstzunehmen." Diese Sichtbarkeit lockt Entwickler an, die X1s
+                kostengünstige Validatoren für Stablecoin-Projekte nutzen
+                wollen.
               </p>
             </div>
           </div>
@@ -577,7 +598,7 @@ const BlogPostInvestor_2 = ({}) => {
             <p className="text-gray-800 font-medium">
               <strong>Warum Stephen Ptucha?</strong> Stephen bringt X1 die
               Energie, die Stablecoins zum Leuchten bringt. Sein Investment und
-              seine Erfahrung machen die Plattform zum Anziehungspunkt für
+              seine Erfahrung machen die X1 Blockchain zum Anziehungspunkt für
               Entwickler und Krypto-Fans. Bleib dran, um zu sehen, wie er X1s
               Zukunft mitprägt!
             </p>
@@ -601,7 +622,7 @@ const BlogPostInvestor_2 = ({}) => {
             weltweit begeistert.
           </p>
           <div className="text-center">
-            <p className="mb-4">Neugierig, wohin die Reise geht?</p>
+            <p className="mb-4">Bereit für die Blockchain-Revolution?</p>
             <div className="flex items-center justify-center gap-2 text-blue-200">
               <span className="font-semibold">
                 Folge mir auf X (
@@ -613,7 +634,7 @@ const BlogPostInvestor_2 = ({}) => {
                 >
                   @devandrej01
                 </a>
-                ) und bleib dabei, wenn X1 die Blockchain-Welt erobert!
+                ) und erlebe mit, wie X1 Blockchain die Welt erobert!
               </span>
             </div>
           </div>
@@ -621,10 +642,14 @@ const BlogPostInvestor_2 = ({}) => {
 
         {/* Call to Action */}
         <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-2 bg-white rounded-full px-6 py-3 shadow-lg">
-            <span className="text-blue-600 text-lg">📈</span>
-            <span className="font-semibold text-gray-800">
-              Bereit für die Blockchain-Revolution?
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-green-500 rounded-full px-6 py-3 shadow-lg border border-gray-300 hover:from-teal-600 hover:to-green-600 hover:shadow-md transition duration-200 ease-in-out">
+            <span className="font-semibold text-white">
+              <a
+                href="https://x1blockchainguide.com/X1Updates"
+                rel="noopener noreferrer"
+              >
+                Zurück zur Übersicht
+              </a>
             </span>
           </div>
         </div>
@@ -637,9 +662,9 @@ export default BlogPostInvestor_2;
 
 {
   /*
-http://fastjpeg.com/
-@joeblau
-
-
-*/
+  http://fastjpeg.com/
+  @joeblau
+  
+  
+  */
 }

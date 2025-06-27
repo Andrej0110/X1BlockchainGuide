@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 
 const BlogHome_1 = () => {
   return (
