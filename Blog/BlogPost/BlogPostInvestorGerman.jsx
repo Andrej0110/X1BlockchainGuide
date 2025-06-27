@@ -555,12 +555,13 @@ const BlogPostInvestor_2 = ({}) => {
                 Finanzielle Unterstützung für Stablecoins
               </h4>
               <p className="text-gray-700">
-                Stephen Ptucha's Investment gibt X1 den nötigen Rückenwind, um
-                Stablecoin-Projekte voranzutreiben. Stablecoins, die an Werte
-                wie den US-Dollar gekoppelt sind, sind ein Kernstück von X1.
-                Sein Kapital hilft, Tools wie den Token Constructor oder
-                dynamische Gebühren zu optimieren, damit Entwickler günstige und
-                schnelle Stablecoin-dApps bauen können.
+                Stephen Ptuchas Investition bietet X1 den nötigen Rückhalt, um
+                vielversprechende Stablecoin-Projekte voranzutreiben.
+                Stablecoins, die an Werte wie den US-Dollar gebunden sind,
+                bilden ein zentrales Element der X1-Plattform. Sein Kapital kann
+                dafür genutzt werden es Entwicklern zu ermöglichen,
+                kostengünstige und effiziente Stablecoin-dApps zu entwickeln,
+                die die Funktionalität und Attraktivität von X1 steigern.
               </p>
             </div>
 

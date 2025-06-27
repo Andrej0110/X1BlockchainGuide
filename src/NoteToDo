@@ -16,7 +16,6 @@ Um zu verhindern, dass man nach deploy auf gitHub die Seite ständig eingeben zu
 #Bilder alt ist überall falsch
 #Link zum Teilen der Webseite?
 #Werbung auf Reddit
-#Bild Auswahl Hardware ändern auf Raid 0, 2x 2TB NVMe reichen mittelfristig
 #hreflang hinzufügen
 <link rel="alternate" hreflang="de" href="https://deine-seite.de/unsere-investoren">
 <link rel="alternate" hreflang="en" href="https://deine-seite.de/our-investors">
