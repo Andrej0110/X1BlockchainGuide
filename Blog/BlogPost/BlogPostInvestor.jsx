@@ -670,8 +670,21 @@ export default BlogPostInvestor_2;
 
 {
   /*
-http://fastjpeg.com/
-@joeblau
+<div className="text-center">
+          <p className="font-semibold">
+            Step-by-step instructions on how to set up a validator for the X1
+            blockchain can be found at{" "}
+            <a
+              href="https://x1blockchainguide.com"
+              className="text-blue-400 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.X1BlockchainGuide.com
+            </a>
+            .
+          </p>
+        </div>
 
 
 */
