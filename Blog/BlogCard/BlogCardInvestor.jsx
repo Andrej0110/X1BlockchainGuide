@@ -1,8 +1,12 @@
 import BlogPostCardTemplate from "./BlogCardTemplate.jsx";
 import ImageInvestors from "../BlogCard/BlogCardInvestor.webp";
 
-const BlogPostInvestor_1 = ({}) => {
+import { useEffect } from "react";
+
+const BlogPostInvestor = ({}) => {
+
   return (
+
     <div className="flex justify-center items-start min-h-screen">
       <BlogPostCardTemplate
         title="Investors"
@@ -14,10 +18,11 @@ const BlogPostInvestor_1 = ({}) => {
   );
 };
 
-export default BlogPostInvestor_1;
+export default BlogPostInvestor;
 
 {
   /*
 Was wissen wir über die bisherigen Investoren und welchen Vorteil bringen Sie für die X1 Blockchain?
 */
 }
+

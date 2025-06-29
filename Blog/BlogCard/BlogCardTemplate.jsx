@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import Tilt from "react-parallax-tilt";
+
 
 const BlogPostCardTemplate = ({ title, description, link, image }) => {
   return (

@@ -1,13 +1,38 @@
-const BlogPostInvestor_2 = ({}) => {
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+
+
+const BlogPostInvestor = ({}) => {
+
+//um nach oben zu Scrollen
+//in der ersten div ref={containerRef} beachten
+const { pathname } = useLocation();
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    console.log("BlogPostInvestor scroll triggered for path:", pathname);
+    setTimeout(() => {
+      if (containerRef.current) {
+        containerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+        console.log("scrollIntoView executed with smooth behavior");
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        console.log("window.scrollTo executed as fallback with smooth behavior");
+      }
+    }, 100); // Verzögerung von 100ms
+  }, [pathname]);
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div ref={containerRef} className=" bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-16">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Our investors: The visionaries behind the X1 blockchain
           </h1>
-          <p className="text-xl opacity-90 mb-6">The minds behind X1</p>
+     
           <div className="flex items-center gap-4 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <span className="text-lg">🕐</span>
@@ -649,15 +674,11 @@ const BlogPostInvestor_2 = ({}) => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-green-500 rounded-full px-6 py-3 shadow-lg border border-gray-300 hover:from-teal-600 hover:to-green-600 hover:shadow-md transition duration-200 ease-in-out">
-            <span className="font-semibold text-white">
-              <a
-                href="https://x1blockchainguide.com/X1Updates"
-                rel="noopener noreferrer"
-              >
-                Back to overview
-              </a>
+        <div className="mt-5 text-center mb-20">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-green-500 rounded-full px-6 py-3 shadow-lg border border-gray-300 hover:from-teal-600 hover:to-green-600 hover:shadow-md transition duration-200 ease-in-out touch-action-manipulation" style={{ minWidth: "150px", touchAction: "manipulation" }}>  <span className="font-semibold text-white">
+              <Link to="/X1Updates" rel="noopener noreferrer">
+        Back to overview
+      </Link>
             </span>
           </div>
         </div>
@@ -666,7 +687,7 @@ const BlogPostInvestor_2 = ({}) => {
   );
 };
 
-export default BlogPostInvestor_2;
+export default BlogPostInvestor;
 
 {
   /*
