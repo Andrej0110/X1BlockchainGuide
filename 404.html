@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - Seite nicht gefunden</title>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      sessionStorage.setItem("redirectAfterLoad", location.pathname + location.search);
+      window.location.replace("/");
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/assets/index-tWG5dq1p.js"></script> <!-- Passe den Dateinamen an den Build an -->
+    <script type="module" src="/assets/index-CL22_Dfe.js"></script> <!-- Passe den Dateinamen an den Build an -->
   </body>
 </html>
 
