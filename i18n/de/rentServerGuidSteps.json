@@ -19,7 +19,7 @@
         "headline02": "Select Hard Drives",
         "p02": "Im Testnet sind derzeit 2 TB NVMe ausreichend, und du kannst dir die Mehrkosten vorerst sparen. Zu Beginn des Mainnets sollten zwei 2 TB NVMe Laufwerke für die ersten 1–2 Jahre ausreichen.",
         "headline03": "SELECT RAID TYPE",
-        "p03": "Wenn du direkt zu Beginn den optimalen Server auswählen möchtest, um fürs Mainnet die zusätzlich Arbeit zu vermeiden, dann entscheide dich für 192GB und 2x 2 TB NVMe. Sobald du mindestens 2 Stück NVMe Festplatten ausgewählt hast, bekommst du eine weitere Auswahl unter 'SELECTED RAID TYPE'. Wähle hier die Option 'Hardware Raid 1' aus und etwas weiter unten unter 'Select Control Panel' wählst du anschließend 'No Control Panel'.",
+        "p03": "Wenn du direkt zu Beginn den optimalen Server auswählen möchtest, um dir fürs Mainnet die zusätzlich Arbeit zu vermeiden, dann entscheide dich für 192GB und 2x 2 TB NVMe. Sobald du mindestens 2 Stück NVMe Festplatten ausgewählt hast, bekommst du eine weitere Auswahl unter 'SELECTED RAID TYPE'. Wähle hier die Option 'NO RAID' aus und etwas weiter unten unter 'Select Control Panel' wählst du anschließend 'No Control Panel'.",
         "headline04": "Select OS",
         "p04": "Unter 'Select OS' wählen wir Ubuntu LTS aus. Den Rest können wir so belassen, wie er durch die Vorauswahl festgelegt wurde. Bestätige deine Auswahl."
         
